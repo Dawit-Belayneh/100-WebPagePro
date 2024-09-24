@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;     
+    font-family: "scandia-web","ui-sans-serif","system-ui","sans-serif","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+/* navbar css */
+.navbar{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1 a{
+    text-decoration: none;
+    color: rgb(240, 83, 64);
+    margin-left: 50px;
+}
+.navbar-menu{
+    padding-left: 100px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 25px;
+    color:  rgb(108, 108, 108);
+    text-align: center;
+}
+
+.ecosystem a{
+    display: flex;
+}
+/* ecosystem icon area */
+ul li a span.material-symbols-outlined{
+   margin-left: 10px;
+}
+
+/* ul li a span.material-symbols-outlined:hover{
+    transform: rotate(180deg);
+} */
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.navbar-right{
+  margin-right: 10px;
+}
+
+.navbar-right i.search-icon{
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    color:  rgb(108, 108, 108);
+}
+
+.navbar-right .btn{
+    border: 2px solid  rgb(240, 83, 64);
+    background-color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1em;
+    color:rgb(240, 83, 64);
+    cursor: pointer;
+}
