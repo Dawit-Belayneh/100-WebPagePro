@@ -136,3 +136,54 @@ main button{
     font-weight: 700;
     margin-left: 20px;
 }
+
+
+/* main 2 area css */
+
+.main-2{
+    margin-top: 25%;
+}
+
+.main-2-left{
+    display: block;
+    margin-left: 100px;
+}
+.main-2-head{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.main-2-text{
+    font-size: 17px;
+    margin-top: 3%;
+    color: rgb(108, 108, 108);
+}
+
+.btn-3{
+    border: 1px solid  rgb(249, 50, 44);
+    background-color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1em;
+    color:rgb(249, 50, 44);
+    cursor: pointer;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.main-2-right img{
+    float: right;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    margin-right: 100px;
+    border-radius: 20px;
+    transform: rotate(5deg);
+}
+
+
+
+
+
