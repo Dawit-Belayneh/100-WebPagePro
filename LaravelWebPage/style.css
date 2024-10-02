@@ -141,11 +141,10 @@ main button{
 /* main 2 area css */
 
 .main-2{
-    margin-top: 25%;
+    margin-top: 20%;
 }
 
 .main-2-left{
-    display: block;
     margin-left: 100px;
 }
 .main-2-head{
@@ -183,6 +182,21 @@ main button{
     transform: rotate(5deg);
 }
 
+
+/* main 3 side */
+
+.main-3-right{
+    float: right;
+    margin-right: 100px;
+}
+
+.main-3-left img{
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    margin-left: 100px;
+    border-radius: 20px;
+}
 
 
 

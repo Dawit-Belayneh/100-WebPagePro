@@ -1,3 +1,3 @@
-this page are sample for pages
+#this page are website sample pages.
 
-this is navbar and main pages
+
