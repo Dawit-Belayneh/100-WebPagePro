@@ -153,6 +153,21 @@
                             <h3>Event & WebSockets</h3>
                         </a>
                 </div>
+
+                <div class="side-bar-content">
+                    <h2>Authentication</h2>
+                    <p>Authenticating users is as simple as adding an authentication middleware to your <br>
+                        Laravel route definition:</p>
+                        <p>Route::get('/profile', ProfileController::class) <br> 
+                          ->middleware('auth');</p>
+                          <p>Once the user is authenticated, you can access the authenticated user via the Auth <br>facade:</p>
+                          <p>use Illuminate\Support\Facades\Auth;<br>
+                              <br>
+                            // Get the currently authenticated user...
+                            $user = Auth::user();</p>
+                            <p>Of course, you may define your own authentication middleware, allowing you to <br>customize the authentication process</p>
+                            <p>For more information on Laravel's authentication features, check <br> out the <a href="">authentication documentation</a></p>
+                </div>
             </div>
        </div>
 </body>
