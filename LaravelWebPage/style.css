@@ -198,6 +198,65 @@ main button{
     border-radius: 20px;
 }
 
+/* container */
+
+.container{
+  display: grid;
+  width: 80%;
+  margin: 50px 50px;
+  margin-right: 100px;
+  gap: 1.8rem;
+  background-color: #fff;
+  border: 1px solid;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.container .sidebar{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    top: 1.5rem;
+    left: 1.5rem;
+    height: 88vh;
+    transition: all 0.3s ease;
+}
+
+.container .sidebar:hover{
+    box-shadow: none;
+}
+
+.container .sidebar a{
+    display: flex;
+    align-items: center;
+    color: rgb(108, 108, 108);
+    height: 4.7rem;
+    gap: 1rem;
+    position: relative;
+    margin-left: 2rem;
+    transition: all 0.3s ease;
+}
+
+.container .sidebar a span{
+    font-size: 1.6rem;
+    transition: all 03s ease;
+} 
+
+.container .sidebar a:last-child{
+    position:absolute;
+    bottom: 2rem;
+    width: 100%;
+}
+
+
 
 
 
