@@ -198,14 +198,19 @@ main button{
     border-radius: 20px;
 }
 
+/* container title */
+
+
 /* container */
+.main-4{
+   margin-left: 50px; 
+}
 
 .container{
-  display: grid;
+  display: flex;
   width: 80%;
-  margin: 50px 50px;
-  margin-right: 100px;
-  gap: 1.8rem;
+  margin: 50px ;
+  gap: 6rem;
   background-color: #fff;
   border: 1px solid;
 }
@@ -225,9 +230,11 @@ h3{
     flex-direction: column;
     position:relative;
     top: 1.5rem;
+    bottom: 1.5rem;
     left: 1.5rem;
-    height: 88vh;
+    margin-right: 30px;
     transition: all 0.3s ease;
+
 }
 
 .container .sidebar:hover{
@@ -256,6 +263,13 @@ h3{
     width: 100%;
 }
 
+
+.container .sidebar a.active{
+    width: 100%;
+    color: #000;
+    background-color: lightcyan;
+    margin-left: 0;
+}
 
 
 
