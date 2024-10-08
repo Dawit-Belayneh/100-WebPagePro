@@ -157,11 +157,11 @@
                 <div class="intro">
                     <h2 class="intro-head">Authentication</h2>
                     <p class="main-2-text">Authenticating users is as simple as adding an authentication middleware to your <br>
-                        Laravel route definition:</p>
-                        <p>Route::get('/profile', ProfileController::class) <br> 
+                        Laravel route definition:</p><br>
+                        <p class="main-4-text"><span style="color: rgb(231, 160, 27);">Route</span>::get('/profile', ProfileController::class) <br> 
                           ->middleware('auth');</p>
-                          <p class="main-2-text" >Once the user is authenticated, you can access the authenticated user via the Auth <br>facade:</p>
-                          <p>use Illuminate\Support\Facades\Auth;<br>
+                          <p class="main-2-text" >Once the user is authenticated, you can access the authenticated user via the Auth <br>facade:</p><br>
+                          <p class="main-4-text">use Illuminate\Support\Facades\Auth;<br>
                               <br>
                             // Get the currently authenticated user...
                             $user = Auth::user();</p>

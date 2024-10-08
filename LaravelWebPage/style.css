@@ -213,6 +213,8 @@ main button{
   gap: 6rem;
   background-color: #fff;
   border: 1px solid;
+  overflow: hidden;
+  height: 100%;
 }
 
 a{
@@ -271,6 +273,23 @@ h3{
     margin-left: 0;
 }
 
+/* contaiere intoduction area */
+
+.intro{
+    margin-top: 20px;
+}
+
+.main-4-text{
+    background: #000;
+    padding: 50px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.intro p a{
+    text-decoration: underline;
+    color: rgb(249, 50, 44);;
+}
 
 
 
