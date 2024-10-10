@@ -209,10 +209,10 @@ main button{
 .container{
   display: flex;
   width: 80%;
-  margin: 50px ;
+  margin: 50px 50px 50px;
   gap: 6rem;
   background-color: #fff;
-  border: 1px solid;
+   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); /*this shadow border css */
   overflow: hidden;
   height: 100%;
 }
@@ -247,7 +247,7 @@ h3{
     display: flex;
     align-items: center;
     color: rgb(108, 108, 108);
-    height: 4.7rem;
+    height: 4.5rem;
     gap: 1rem;
     position: relative;
     margin-left: 2rem;
@@ -259,21 +259,22 @@ h3{
     transition: all 03s ease;
 } 
 
-.container .sidebar a:last-child{
+/* .container .sidebar a:last-child{
     position:absolute;
     bottom: 2rem;
     width: 100%;
-}
+} */
 
 
 .container .sidebar a.active{
     width: 100%;
     color: #000;
-    background-color: lightcyan;
-    margin-left: 0;
+    background-color: #fff;
+    /* margin-left: 0; */
 }
 
 /* contaiere intoduction area */
+/* not finish */
 
 .intro{
     margin-top: 20px;
@@ -288,8 +289,21 @@ h3{
 
 .intro p a{
     text-decoration: underline;
-    color: rgb(249, 50, 44);;
+    color: rgb(249, 50, 44);
 }
 
+.text-under-container{
+    margin-left: 50px;
+}
 
+.text-under-container p a{
+    text-decoration: underline;
+    color: rgb(249, 50, 44);
+}
+
+/* main 6 enterprise scale boxes */
+
+.main-6 p a{
+    text-decoration: underline;
+}
 
