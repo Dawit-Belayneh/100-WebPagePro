@@ -13,6 +13,11 @@
     justify-content: space-between;
 }
 
+.navbar a i.icon-head{
+    font-size: 1.5em;
+    color: rgb(249, 50, 44);
+}
+
 .navbar h1 a{
     text-decoration: none;
     color: rgb(249, 50, 44);
@@ -259,13 +264,6 @@ h3{
     transition: all 03s ease;
 } 
 
-/* .container .sidebar a:last-child{
-    position:absolute;
-    bottom: 2rem;
-    width: 100%;
-} */
-
-
 .container .sidebar a.active{
     width: 100%;
     color: #000;
@@ -306,4 +304,72 @@ h3{
 .main-6 p a{
     text-decoration: underline;
 }
+
+/* enterprise boxes */
+
+.enterprise-box{
+    margin-top: 5%;
+
+}
+
+.enterprise-box .box-1{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); /*this shadow border css */
+    margin-bottom: 5%;
+}
+
+.enterprise-box .first-box{
+    display: flex;
+    gap: 2em;
+}
+
+.enterprise-box .second-box{
+    display: flex;
+    gap: 2em;
+}
+
+/* community comments css */
+
+.header-community{
+    justify-content: center;
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    margin-top: 20%;
+}
+
+.upper-footer{
+    font-size: 5em;
+    margin-bottom: 5%;
+    color: orangered;
+}
+
+.lower-footer{
+    display: flex;
+    gap: 8em;
+}
+
+.row-p{
+    color: rgb(108, 108, 108); 
+}
+
+.footer-icons{
+    font-size: 2em;
+}
+
+.row h5{
+    font-size: small;
+    font-weight: 500;
+    color: rgb(108, 108, 108);
+    text-transform: uppercase;
+}
+
+.row p{
+    margin-top: 1em;
+    font-size: small;
+    color: rgb(108, 108, 108);
+}
+
 
