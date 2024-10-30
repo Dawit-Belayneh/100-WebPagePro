@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-1 ul{
+    display: flex;
+    gap: 1em;
+}
+
+.search input{ 
+    border: 1px solid rgba(0, 0, 0, 0.25) !important;
+    border-radius: 2em;
+    width: 200px;
+    height: 40px;
+    padding: 5px 40px 5px 15px;
+    font-style: italic;
+    font-size: 15px;
+
+}
