@@ -24,13 +24,34 @@ a{
     gap: 1em;
 }
 
-.search input{ 
+.search {
     border: 1px solid rgba(0, 0, 0, 0.25) !important;
-    border-radius: 2em;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 16px;
     width: 200px;
-    height: 40px;
-    padding: 5px 40px 5px 15px;
-    font-style: italic;
-    font-size: 15px;
+    border-radius: 2em;
+}
+  
+.search-input {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #fff;
+    flex: 1;
+}
 
+.search-input::placeholder {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.mood{
+  
+}
+
+.navbar-2 ul{
+    display: flex;
+    gap: 1em;
 }
