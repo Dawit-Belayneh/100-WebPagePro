@@ -11,6 +11,9 @@
     padding: 10px;
 }
 
+.navbar a img{
+    margin-left: 10px;
+}
 ul{
     list-style: none;
 }
@@ -21,13 +24,14 @@ a{
 
 .navbar-1 ul{
     display: flex;
-    gap: 1em;
+    gap: 1.2em;
+    margin-right: 180px ;
+    font-size: 1.1em;
 }
 
 .search {
     border: 1px solid rgba(0, 0, 0, 0.25) !important;
     display: flex;
-    align-items: center;
     padding: 10px;
     border-radius: 16px;
     width: 200px;
