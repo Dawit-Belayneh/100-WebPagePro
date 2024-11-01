@@ -120,3 +120,15 @@ a{
     color: #fff;
     background-color:#099964;
 }
+
+.main{
+    background-color: #282A35!important;
+}
+
+.under-navbar{
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+}
