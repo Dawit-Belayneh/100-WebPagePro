@@ -8,25 +8,27 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 .navbar a img{
     margin-left: 10px;
 }
+
 ul{
     list-style: none;
 }
+
 a{
     text-decoration: none;
     color: black;
 }
 
 .navbar-1 ul{
-    display: flex;
-    gap: 1.2em;
-    margin-right: 180px ;
+    display:flex;
+    gap: 1.5em;
     font-size: 1.1em;
+    margin-left: 10px;
 }
 
 .search {
@@ -51,8 +53,19 @@ a{
     font-style: italic;
 }
 
-
 .navbar-2 ul{
     display: flex;
-    gap: 1em;
+    gap: 1.5em;
+    /* margin-right: 100px; */
+    margin-left: 10px;
+}
+
+.navbar-2 ul li a i{
+    justify-content: space-between;
+    margin-right: 10px;
+    color: #9763f6;
+}
+
+.button{
+    margin-right: 20px;
 }
