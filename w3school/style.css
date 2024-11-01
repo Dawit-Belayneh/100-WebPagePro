@@ -129,6 +129,23 @@ a{
     list-style: none;
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+
+}
+
+.under-navbar ul{
     display: flex;
 }
+
+.under-navbar ul li a{
+    color: white;
+    padding: 5px 15px 5px 15px;
+    font-size: 14px;
+    width: auto;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.under-navbar ul li a:hover{
+    background-color: #000;
+}
+
