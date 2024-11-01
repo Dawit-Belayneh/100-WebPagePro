@@ -29,7 +29,7 @@ a{
 .navbar-1 ul{
     display:flex;
     gap: 1.5em;
-    font-size: 1em;
+    font-size: 15px;
     margin-left: 10px;
 }
 
@@ -62,8 +62,8 @@ a{
 .navbar-2 ul{
     display: flex;
     gap: 1.5em;
-    /* margin-right: 100px; */
     margin-left: 10px;
+    font-size: 15px;
 }
 
 .navbar-2 ul li a i{
@@ -75,6 +75,7 @@ a{
 .button{
     margin-right: 20px;
     cursor: pointer;
+    font-size: 15px;
 }
 
 .button .sin-button{
