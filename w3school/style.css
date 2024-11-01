@@ -149,3 +149,9 @@ a{
     background-color: #000;
 }
 
+.main-center{
+    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
+}
+
