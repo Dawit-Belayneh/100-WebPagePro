@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+    
 }
 
 .navbar{
@@ -27,30 +29,34 @@ a{
 .navbar-1 ul{
     display:flex;
     gap: 1.5em;
-    font-size: 1.1em;
+    font-size: 1em;
     margin-left: 10px;
 }
 
 .search {
-    border: 1px solid rgba(0, 0, 0, 0.25) !important;
+    border: 1px solid rgba(0, 0, 0, 0.25);
     display: flex;
     padding: 10px;
     border-radius: 16px;
-    width: 200px;
+    width: 210px;
     border-radius: 2em;
 }
   
+.search:hover{
+    border: 3px solid #04AA6D;
+}
+
 .search-input {
     outline: none;
     border: none;
     background: transparent;
-    color: #fff;
     flex: 1;
 }
 
 .search-input::placeholder {
     font-size: 16px;
     font-style: italic;
+    color: #333;
 }
 
 .navbar-2 ul{
@@ -68,4 +74,48 @@ a{
 
 .button{
     margin-right: 20px;
+    cursor: pointer;
+}
+
+.button .sin-button{
+        position: relative;
+        width: 93px;
+        height: 40px;
+        top: 50%;
+        margin-top: -20px;
+        border-radius: 25px;
+        margin-right: -39px;
+        font-size: 16px;
+        line-height: 1.5;
+        z-index: 5;
+        background-color: #04AA6D;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+}
+
+.sin-button:hover{
+    background-color: #099964;
+}
+
+.button .log-button{
+    position: relative;
+    width: 112px;
+    height: 40px;
+    top: 50%;
+    margin-top: -20px;
+    color: #333;
+    border-radius: 25px;
+    padding-left: 39px;
+    font-size: 16px;
+    line-height: 1.5;
+    z-index: 4;
+    cursor: pointer;
+    border: none;
+    background-color: #D9EEE1;
+}
+
+.log-button:hover{
+    color: #fff;
+    background-color:#099964;
 }
