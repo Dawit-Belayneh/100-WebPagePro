@@ -160,7 +160,7 @@ a{
     justify-content: center;
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 210px
+    padding-bottom: 210px;
 }
 
 .main-center h1{
@@ -172,44 +172,42 @@ a{
 .main-center p{
     color: #FFF4A3;
     font-weight: 700;
-    margin-top: 30px !important;
+    margin-top: 30px;
     font-size: 23px;
 }
 
 
 .search-2{
     padding: 20px;
+    display: flex;
+    align-items: stretch; /*attache the input serach and button*/
+    align-items: center;
+    justify-content: center;
 }
 
 .search-input-2{
     padding: 15px;
     width: 40%; 
     font-size: 17px;
-    border: none; 
+    border: none;
 }
 
 .search-input-2[type="text"]{
-    /* font-size: 20px; */
-    
-    /* font-size: 17px; */
     border: 1px solid #282A35;
     border-radius: 25px;
-    /* float: left; */
-    /* width: 40%; */
-    /* padding-left: 25px; */
     background: white;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border-right: 0;
     border-right: 1px solid #04AA6D;
-    outline: 0
-    
+    outline: 0;
 }
 
 .search-2 button{
     border-radius: 25px;
     width: 10%;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background: #04AA6D;
     color: white;
     font-size: 17px;
@@ -219,3 +217,4 @@ a{
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+
