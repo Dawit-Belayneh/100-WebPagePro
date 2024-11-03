@@ -6,11 +6,16 @@
     
 }
 
+body{
+    display: block;
+}
+
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 10px;
+
 }
 
 .navbar a img{
@@ -126,9 +131,10 @@ a{
     background-color: #282A35;
     height: 100%;
     width: 100%;
-    /* background-image:  url(img/background.png); */
-    background-repeat: no-repeat, repeat;
-    background-position: 90% 60%, center center /*left top*/;
+    background-image:  url(img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .under-navbar{
