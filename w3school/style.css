@@ -125,8 +125,48 @@ a{
     background-color:#099964;
 }
 
+@media (max-width: 1300px){
+    .navbar-2 ul li:nth-last-child(3){
+        display: none;
+    }
+}
 
+@media (max-width: 1200px){
+    .navbar-2 ul li:nth-last-child(2){
+        display: none;
+    }
+}
 
+@media (max-width: 1074px){
+    .navbar-2 ul li:nth-last-child(1){
+        display: none;
+    }
+}
+
+@media (max-width: 950px){
+    .navbar-1 ul li:nth-last-child(2){
+        display: none;
+    }
+}
+
+@media (max-width: 820px){ /*this not finshi icond not reduction*/
+     .search{
+        display: none;
+    }
+}
+
+@media (max-width: 690px){
+    .navbar-1 ul li:nth-last-child(1){
+        display: none;
+    }
+    
+}
+
+@media (max-width: 500px){
+    .navbar-1 ul li:nth-last-child(3){
+        display: none;
+    }
+}
 .main{
     background-color: #282A35;
     height: 100%;
@@ -136,6 +176,8 @@ a{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* this course under navbar */
 
 .under-navbar{
     list-style: none;
