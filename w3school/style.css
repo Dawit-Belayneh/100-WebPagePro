@@ -272,3 +272,57 @@ a{
     text-decoration: underline;
     font-weight: bold;
 }
+
+/* main-1 css */
+
+.main-1{
+    background-color: #D9EEE1;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.main-1-left h1{
+    font-weight: 700;
+    font-size: 100px;
+    text-transform: uppercase;
+    padding: 3%;
+}
+
+.main-1-left p{
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.main-1-left a button{
+    font-size: 18px;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+}
+
+.btn-1{
+    background-color: #04AA6D;
+    color: white;
+    margin-bottom: 1.5em;
+}
+
+.btn-2{
+    background-color: #FFF4A3;
+    color: black;
+    margin-bottom: 1.5em;
+}
+
+.btn-3{
+    background-color: #000;
+    color: white;
+    margin-bottom: 1.5em;
+}
+
+.btn-4{
+    background-color: #FFC0C7;
+    color: black;
+}
