@@ -326,3 +326,22 @@ a{
     background-color: #FFC0C7;
     color: black;
 }
+
+.right-conatainer a button{
+    font-size: 18px;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.tagnamecolor{
+    color: brown;
+}
+
+.tagcolor{
+    color: mediumblue;
+}
