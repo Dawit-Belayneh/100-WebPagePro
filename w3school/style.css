@@ -277,8 +277,8 @@ a{
 
 .main-1{
     background-color: #D9EEE1;
-    padding-top: 10%;
-    padding-bottom: 40%;
+    padding-top: 7%;
+    padding-bottom: 38%;
 }
 
 .main-1-left{
@@ -306,6 +306,8 @@ a{
     border-radius: 25px;
     border: none;
     padding: 8px 16px;
+    margin-left: 12%;
+    cursor: pointer;
 }
 
 .btn-1{
@@ -332,14 +334,16 @@ a{
 }
 
 .right-container{
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 450px;
     justify-content: center;
-    margin-right: 300px;
+    margin-right: 200px;
     float: right;
-    border: 1px solid #333;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); /*this shadow border css */
     padding: 20px;
     border-radius: 5px;
+    background-color: #E7E9EB;
+    color: #000
 }
 
 .code-container{
@@ -349,7 +353,20 @@ a{
     padding: 8px 12px;
     border-left: 4px solid #4CAF50;
     word-wrap: break-word;
+    height: 300px;
 }
+
+.code-container span{
+    font-size: 15px;
+}
+
+.right-container h3{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 22px;
+    font-weight: 500;
+}
+
 
 .right-container a button{
     font-size: 18px;
@@ -360,6 +377,8 @@ a{
     padding: 8px 16px;
     background-color: #04AA6D;
     color: white;
+    margin-top: 20px;
+    cursor: pointer;
 }
 
 .tagnamecolor{
