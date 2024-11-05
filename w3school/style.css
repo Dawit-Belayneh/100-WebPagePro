@@ -310,6 +310,8 @@ a{
     padding: 8px 16px;
     margin-left: 12%;
     cursor: pointer;
+    text-align: center;
+    justify-content: center;
 }
 
 .btn-1{
@@ -333,6 +335,10 @@ a{
 .btn-4{
     background-color: #FFC0C7;
     color: black;
+}
+
+.btn-5{
+   background-color: white;
 }
 
 .right-container{
@@ -389,4 +395,36 @@ a{
 
 .tagcolor{
     color: mediumblue;
+}
+
+/* main 1 css */
+
+.main-1-css{
+    background-color: #FFF4A3;
+}
+
+/* main  2 js*/
+
+
+
+.main-1-js{
+    background-color: #282A35;
+    padding-bottom: 35%;
+    color: white;
+}
+
+.main-1-js h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+/* main python css */
+
+.main-1-python{
+    background-color: #F3ECEA;
+}
+
+.main-1-sql{
+    background-color: #96D4D4;
 }
