@@ -10,6 +10,8 @@ body{
     display: block;
 }
 
+/* navbar */
+
 .navbar{
     display: flex;
     align-items: center;
@@ -201,6 +203,8 @@ a{
 .under-navbar ul li a:hover{
     background-color: #000;
 }
+
+/* main center */
 
 .main-center{
     margin-top: 5%;
