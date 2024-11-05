@@ -15,7 +15,6 @@ body{
     align-items: center;
     justify-content: space-between;
     padding-top: 10px;
-
 }
 
 .navbar a img{
@@ -184,7 +183,6 @@ a{
     list-style: none;
     text-decoration: none;
     text-transform: uppercase;
-
 }
 
 .under-navbar ul{
