@@ -17,6 +17,24 @@ body{
     align-items: center;
     justify-content: space-between;
     padding-top: 10px;
+    position: absolute;
+    padding: 0;
+    height: 56px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#navbarId{
+    position: fixed;
+    z-index: 4;
+    font-size: 16px;
+    background-color: white;
+    color: #282A35;
+    padding-left: 1px;
+    padding-right: 16px;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+    min-width: 330px;
 }
 
 .navbar a img{
@@ -187,6 +205,22 @@ a{
     text-transform: uppercase;
 }
 
+#under{
+    position: fixed;
+    background-color: #282A35;
+    color: #f1f1f1;
+    padding: 0;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+    font-size: 0;
+    top: 56px;
+    z-index: 2;
+    width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
 .under-navbar ul{
     display: flex;
 }
@@ -202,6 +236,15 @@ a{
 
 .under-navbar ul li a:hover{
     background-color: #000;
+}
+
+#right_scroll{
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    background: linear-gradient(to left, #282A35 70%, transparent 100%);
+    position: fixed;
+    right: 0;
 }
 
 /* main center */
