@@ -466,8 +466,31 @@ a{
 
 .main-1-python{
     background-color: #F3ECEA;
+    padding-bottom: 32%;
+}
+
+.main-1-python h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#pyt-con{
+   height: 400px;
+   
+}
+
+#pyt-cod{
+    height: 250px;
 }
 
 .main-1-sql{
     background-color: #96D4D4;
 }
+
+.main-1-sql h1{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
