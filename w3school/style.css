@@ -511,3 +511,25 @@ a{
     }
 }
 
+
+/* boxes */
+
+
+.big-box{
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: space-around; /* Space around items */
+      padding: 24px;
+}
+
+.box-1{
+    flex: 0 0 45%;
+    height: 250px; 
+    margin: 10px;
+    background-color: #1E90FF; 
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+}
