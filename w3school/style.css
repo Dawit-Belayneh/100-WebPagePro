@@ -322,13 +322,20 @@ a{
 
 .main-1{
     background-color: #D9EEE1;
-    padding-top: 7%;
-    padding-bottom: 38%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    min-height: 100vh;
+    gap: 6em;
+    flex-wrap: wrap;
 }
 
 .main-1-left{
-    float: left;
-    margin-left: 20%;
+    padding: 20px;
+    margin-left: 200px;
+    flex: 0 0 300px;
+    text-align: center;
 }
 
 .main-1-left h1{
@@ -385,11 +392,12 @@ a{
 }
 
 .right-container{
+    flex: 1;
+    align-items: center;
     width: 450px;
     height: 450px;
     justify-content: center;
     margin-right: 200px;
-    float: right;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); /*this shadow border css */
     padding: 20px;
     border-radius: 5px;
@@ -444,16 +452,15 @@ a{
 
 .main-1-css{
     background-color: #FFF4A3;
+    min-height: 80vh;
 }
 
-/* main  2 js*/
-
-
-
+/* main   js*/
 .main-1-js{
     background-color: #282A35;
     padding-bottom: 35%;
     color: white;
+    padding-bottom: 10%;
 }
 
 .main-1-js h1{
@@ -466,7 +473,7 @@ a{
 
 .main-1-python{
     background-color: #F3ECEA;
-    padding-bottom: 32%;
+    padding-bottom: 5%;
 }
 
 .main-1-python h1{
@@ -486,11 +493,21 @@ a{
 
 .main-1-sql{
     background-color: #96D4D4;
+    padding-bottom: 2%;
 }
 
 .main-1-sql h1{
     font-size: 60px;
     font-weight: 700;
     text-align: center;
+}
+
+@media (max-width:600px){
+    .right-container{
+        display: none;
+    }
+    .main-1-left{
+        margin-left: 50px;
+    }
 }
 
