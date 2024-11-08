@@ -513,23 +513,93 @@ a{
 
 
 /* boxes */
-
+.box{
+    background-color: #282A35;
+}
 
 .big-box{
       display: flex;
       flex-wrap: wrap; 
       justify-content: space-around; /* Space around items */
       padding: 24px;
+      flex-wrap: wrap;
 }
 
 .box-1{
     flex: 0 0 45%;
     height: 250px; 
     margin: 10px;
-    background-color: #1E90FF; 
     align-items: center;
     justify-content: center;
     color: black;
     border-radius: 5px;
     text-align: center;
+    margin-top: 40px;
+}
+
+.box-php{
+    color: black;
+    background-color: #FFC0C7;
+    padding: 24px;
+}
+
+.box-jauery{
+    color: black;
+    background-color: #FFF4A3;
+    padding: 24px;
+}
+
+.box-java{
+    color: black;
+    background-color: #F3ECEA;
+    padding: 24px;
+}
+
+.box-c{
+    color: black;
+    background-color: #D9EEE1;
+    padding: 24px;
+}
+
+.box-w3{
+    color: black;
+    background-color: #96D4D4;
+    padding: 24px;
+}
+
+.box-bootstrap{
+    color: black;
+    background-color: #E7E9EB;
+    padding: 24px;
+}
+
+.box-1 h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.box-1 p{
+   color: #3a3a3a;
+   margin-top: 30px;
+   font-weight: 400;
+   font-size: 18px;
+}
+
+.box-1 a button{
+    font-size: 18px;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    background-color: #282A35;
+    color: white;
+    margin-top: 30px;
+}
+
+.box-1 a button:hover{
+    background-color: black;
 }
