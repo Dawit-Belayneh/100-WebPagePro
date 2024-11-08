@@ -522,7 +522,6 @@ a{
       flex-wrap: wrap; 
       justify-content: space-around; /* Space around items */
       padding: 24px;
-      flex-wrap: wrap;
 }
 
 .box-1{
@@ -602,4 +601,30 @@ a{
 
 .box-1 a button:hover{
     background-color: black;
+}
+
+.box-width{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; /* Space around items */
+    padding: 24px;
+}
+
+.box-2{
+    flex: 0 0 45%;
+    height: 120px; 
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 40px;
+    padding: 36px 24px;
+}
+
+.box-2 h2{
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 30px;
 }
