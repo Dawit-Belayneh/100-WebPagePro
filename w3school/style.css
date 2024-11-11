@@ -621,6 +621,7 @@ a{
     text-align: center;
     margin-top: 40px;
     padding: 36px 24px;
+    cursor: pointer;
 }
 
 .box-2 h2{
@@ -648,4 +649,50 @@ a{
     margin-top: 40px;
     padding: 36px 24px;
     cursor: pointer;
+}
+
+/* code editor */
+
+.editor{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.editor h1{
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.editor p{
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.editor a button{
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 25%;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+}
+
+.editor a button .btn-space{
+    font-size: 18px;
+    display: flex;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 16px;
+   
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
 }
