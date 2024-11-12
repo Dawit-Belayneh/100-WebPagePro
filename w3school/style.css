@@ -700,3 +700,38 @@ a{
     justify-content: center;
     margin-top: 50px;
 }
+
+.right{
+    margin-right: 50px;
+    text-align: center;
+}
+
+.right h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.right p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn-learn{
+    font-size: 18px;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    padding: 16px 32px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.plus{
+    text-align: center;
+}
+
+.features{
+  
+}
