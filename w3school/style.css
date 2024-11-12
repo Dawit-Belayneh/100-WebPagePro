@@ -671,7 +671,12 @@ a{
     margin-bottom: 30px;
 }
 
-.editor a button{
+.editor img{
+    height: 350px;
+    width: 650px;
+}
+
+.editor a .btn-editor{
     margin-top: 20px;
     font-size: 18px;
     display: flex;
@@ -684,15 +689,14 @@ a{
     justify-content: center;
 }
 
-.editor a button .btn-space{
+.editor a  .btn-space{
     font-size: 18px;
-    display: flex;
-    width: 200px;
+    width: 300px;
     border-radius: 25px;
     border: none;
-    padding: 8px 16px;
-   
+    padding: 16px 32px;
     cursor: pointer;
     text-align: center;
     justify-content: center;
+    margin-top: 50px;
 }
