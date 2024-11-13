@@ -780,3 +780,17 @@ a{
     font-size: 20px;
     margin-bottom: 20px;
 }
+
+.t{
+    height:80vh ;
+    padding-top: 100px;
+}
+
+.left-t{
+    margin-left: 200px;
+   
+}
+
+.right-t{
+    margin-right: 100px;
+}
