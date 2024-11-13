@@ -794,3 +794,30 @@ a{
 .right-t{
     margin-right: 100px;
 }
+
+.game{
+    background-color: #96D4D4;
+    height: 80vh;
+}
+
+.game h2{
+    font-size: 40px;
+    padding-bottom: 2%;
+}
+
+.game h3{
+ padding-bottom: 2%;
+}
+
+.test{
+    text-align: center;
+    height: 90vh;
+}
+
+.test h1{
+    padding: 5%;
+}
+
+.test-box{
+    height: 150px;
+}
