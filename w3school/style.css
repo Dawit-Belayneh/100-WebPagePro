@@ -843,7 +843,8 @@ a{
     width: 700px;
 }
 
-.tempo a button:hover{
+
+.btn-3:hover{
     background-color: black;
 }
 
