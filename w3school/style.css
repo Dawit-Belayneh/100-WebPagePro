@@ -377,7 +377,7 @@ a{
 }
 
 .btn-3{
-    background-color: #000;
+    background-color: #282A35;
     color: white;
     margin-bottom: 1.5em;
 }
@@ -821,3 +821,29 @@ a{
 .test-box{
     height: 150px;
 }
+
+.tempo{
+    text-align: center;
+    background-color: #E7E9EB;
+}
+
+.tempo h1{
+ font-size: 60px;
+ font-weight: 700;
+ padding-top: 5%;
+ padding-bottom: 2%;
+}
+
+.tempo h3{
+    padding-bottom: 2%;
+}
+
+.tempo a button{
+    margin-top: 20px;
+    width: 700px;
+}
+
+.tempo a button:hover{
+    background-color: black;
+}
+
