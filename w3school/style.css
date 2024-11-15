@@ -890,6 +890,10 @@ footer{
     line-height: 15px;
 }
 
+.row a:hover{
+    color: #FFF4A3;;
+}
+
 .row h4{
     padding-bottom: 20px;
 }
@@ -912,9 +916,28 @@ footer{
     padding-top: 8%;
 }
 
+.footer-icons ul a li:hover{
+    color: #FFF4A3;
+    text-decoration: underline;
+}
+
+.footer-icons ul a li i:hover{
+    color: #FFF4A3;
+}
+
 .last-footer {
     color: #ddd;
     margin-left: 120px;
     padding-top: 2%;
     font-size: 14px;
+}
+
+.last-footer a{
+    color: #ddd;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.last-footer a:hover{
+    color: #FFF4A3;
 }
