@@ -852,14 +852,44 @@ a{
 
 footer{
     background-image:  url(img/background.png);
-}
+    background-color: #282A35;
+} 
 
 .first-row{
-    display: flex;
-    padding-top: 20px;
+    padding: 40px 30px;
 }
 
 .first-row ul{
     display: flex;
-    justify-content: center;
+}
+
+.first-row ul a{
+    padding: 40px 30px;
+    width: auto;
+    color: #FFF4A3;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-left: 50px;
+}
+
+.first-row ul a li:hover{
+    text-decoration: underline;
+}
+
+.middle-footer{ 
+    color: #ddd;
+    display: flex;
+    gap: 12em;
+    margin-left: 120px;
+}
+
+.row a{
+    color: #ddd;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.row h4{
+    padding-bottom: 20px;
 }
