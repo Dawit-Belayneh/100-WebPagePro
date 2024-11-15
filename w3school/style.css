@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    
 }
 
 body{
@@ -848,3 +847,19 @@ a{
     background-color: black;
 }
 
+
+/* footer css */
+
+footer{
+    background-image:  url(img/background.png);
+}
+
+.first-row{
+    display: flex;
+    padding-top: 20px;
+}
+
+.first-row ul{
+    display: flex;
+    justify-content: center;
+}
