@@ -853,6 +853,9 @@ a{
 footer{
     background-image:  url(img/background.png);
     background-color: #282A35;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 } 
 
 .first-row{
@@ -925,11 +928,12 @@ footer{
     color: #FFF4A3;
 }
 
-.last-footer {
+.last-footer{
     color: #ddd;
     margin-left: 120px;
     padding-top: 2%;
     font-size: 14px;
+    padding-bottom: 5%;
 }
 
 .last-footer a{
