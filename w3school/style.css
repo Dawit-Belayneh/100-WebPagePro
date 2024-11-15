@@ -893,3 +893,28 @@ footer{
 .row h4{
     padding-bottom: 20px;
 }
+
+.footer-icons ul{
+    display: flex;
+    margin-left: 120px;
+    padding-top: 5%;
+    gap: 10px;
+}
+
+.footer-icons ul a li i{
+    color: #ddd;
+    font-size: 20px;
+}
+
+.footer-icons ul a li{
+    color: #ddd;
+    font-size: 14px;
+    padding-top: 8%;
+}
+
+.last-footer {
+    color: #ddd;
+    margin-left: 120px;
+    padding-top: 2%;
+    font-size: 14px;
+}
