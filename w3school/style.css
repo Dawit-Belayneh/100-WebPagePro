@@ -616,6 +616,7 @@ a{
     flex-wrap: wrap; 
     justify-content: space-around; /* Space around items */
     padding: 24px;
+    gap:20px;
 }
 
 .box-2{
@@ -630,6 +631,15 @@ a{
     margin-top: 40px;
     padding: 36px 24px;
     cursor: pointer;
+    display: flex;
+    min-width: 200px;
+}
+
+@media (max-width:1000px){
+    .box-2{
+        flex: 1 1 100%;
+        margin: 0 auto;
+    }
 }
 
 .box-2 h2{
@@ -643,10 +653,11 @@ a{
     flex-wrap: wrap; 
     justify-content: space-around; /* Space around items */
     padding: 24px;
+    gap: 20px;
 }
 
 .box-3{
-    flex: 0 0 20%;
+    flex: 1 1 calc(20% - 20px); 
     height: 120px; 
     margin: 10px;
     align-items: center;
@@ -657,6 +668,20 @@ a{
     margin-top: 40px;
     padding: 36px 24px;
     cursor: pointer;
+    display: flex;
+    min-width: 120px;
+}
+
+@media (max-width:1000px){
+    .box-3{
+        flex: 1 1 calc(45% - 20px);
+    }
+}
+
+@media (max-width:600px){
+    .box-3{
+        flex: 1 1 100%;
+    }
 }
 
 /* code editor */
