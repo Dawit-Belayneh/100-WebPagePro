@@ -512,6 +512,7 @@ a{
 
 
 /* boxes */
+
 .box{
     background-color: #282A35;
 }
@@ -521,6 +522,7 @@ a{
       flex-wrap: wrap; 
       justify-content: space-around; /* Space around items */
       padding: 24px;
+      gap:20px
 }
 
 .box-1{
@@ -533,6 +535,13 @@ a{
     border-radius: 5px;
     text-align: center;
     margin-top: 40px;
+    min-width: 250px;
+}
+
+@media (max-width:1000px){
+    .box-1{
+        flex: 1 1 100%;
+    }
 }
 
 .box-php{
