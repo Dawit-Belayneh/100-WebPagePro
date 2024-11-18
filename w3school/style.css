@@ -818,8 +818,11 @@ a{
 }
 
 .t{
-    height:80vh ;
     padding-top: 100px;
+}
+
+.right-t img{
+    margin-right: 100px;
 }
 
 .left-t{
