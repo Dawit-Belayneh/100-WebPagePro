@@ -907,13 +907,20 @@ footer{
 }
 
 .first-row ul a{
-    padding: 40px 30px;
+    padding: 30px 30px;
     width: auto;
     color: #FFF4A3;
     font-size: 15px;
     line-height: 1.5;
     font-weight: 400;
     margin-left: 50px;
+}
+
+@media (max-width:1000px){
+    .first-row ul{
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 .first-row ul a li:hover{
@@ -925,6 +932,7 @@ footer{
     display: flex;
     gap: 12em;
     margin-left: 120px;
+    flex-wrap: wrap;
 }
 
 .row a{
