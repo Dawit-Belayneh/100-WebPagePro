@@ -932,7 +932,14 @@ footer{
     display: flex;
     gap: 12em;
     margin-left: 120px;
-    flex-wrap: wrap;
+}
+
+@media (max-width:1000px){
+    .middle-footer{
+        flex-direction: column;
+        text-align: center;
+        gap: 2px;
+    }
 }
 
 .row a{
@@ -947,6 +954,12 @@ footer{
 
 .row h4{
     padding-bottom: 20px;
+}
+
+@media (max-width:1000px){
+    .last{
+        text-align: center;
+    }
 }
 
 .footer-icons ul{
