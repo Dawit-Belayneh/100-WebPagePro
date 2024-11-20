@@ -23,6 +23,7 @@ li{
     display: flex;
     gap: 12px;
     font-size: 20px;
+    padding: 10px;
 }
 
 .navbar-right{
@@ -35,7 +36,7 @@ li{
     display: flex;
     padding: 10px;
     width: 300px;
-    border-radius: 1em;
+    border-radius: 0.5em;
 }
 
 .serach-input{
@@ -46,5 +47,24 @@ li{
     cursor: pointer;
 }
 
+.create-new{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 0.5em;
+}
+
+.navbar-last{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 0.5em;
+}
+
+.navbar-profile{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
 
 
