@@ -16,14 +16,30 @@ li{
 .navbar{
     justify-content: space-between;
     display: flex;
-    padding: 20px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 .navbar-left{
     display: flex;
     gap: 12px;
     font-size: 20px;
+}
+
+.navbar-menu{
     padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 0.5em;
+    font-size: 20px;
+}
+
+.navbar-logo{
+    padding: 2px;
+    font-size: 35px;
+}
+
+.navbar-head p{
+    margin-top: 10px;
 }
 
 .navbar-right{
