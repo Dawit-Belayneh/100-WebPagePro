@@ -51,7 +51,7 @@ li{
     border: 1px solid rgba(0, 0, 0, 0.25);
     display: flex;
     padding: 10px;
-    width: 300px;
+    width: 250px;
     border-radius: 0.5em;
 }
 
@@ -83,4 +83,40 @@ li{
     width: 35px;
 }
 
+/* sidebar */
 
+.sidebar{
+    padding-top: 3em;
+    padding-left: 1.5em;
+    border-right: 2px solid rgba(0, 0, 0, 0.25);
+    margin-right: 78%;
+    height: 100vh;
+}
+
+.sidebar-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+
+.serach-sidebar{
+    cursor: text;
+}
+
+.sidebar-top h2{
+  font-size: 14px;
+  font-weight: 600;
+  /* color: ; */
+  margin-top: 10px;
+}
+
+.sidebar-top a{
+    margin-right: 1.65em;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    display: flex;
+    gap: 0.3em;
+    padding: 6px;
+    border-radius: 5px;
+    color: white;
+    background-color: #238636;
+}
