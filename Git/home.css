@@ -82,6 +82,7 @@ li{
     }
     .search{
         border: none;
+        padding:0px;
     }
     .search a i{
         padding: 10px;
@@ -89,6 +90,7 @@ li{
         border-radius: 0.5em;
         height: 40px;
         color: #9198a1;
+        margin-left: 200px;
     }
 }
 
