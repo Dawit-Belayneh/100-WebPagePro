@@ -76,6 +76,22 @@ li{
     color: #9198a1;
 }
 
+@media (max-width:1010px){
+    .serach-input{
+        display: none;
+    }
+    .search{
+        border: none;
+    }
+    .search a i{
+        padding: 10px;
+        border: 1px solid #3d444d;
+        border-radius: 0.5em;
+        height: 40px;
+        color: #9198a1;
+    }
+}
+
 .create-new{
     padding: 10px;
     border: 1px solid #3d444d;
