@@ -69,6 +69,10 @@ li{
     border-radius: 0.5em;
 }
 
+.create-new a li i{
+    padding: 5px;
+}
+
 .navbar-last{
     padding: 10px;
     border: 1px solid rgba(0, 0, 0, 0.25);
