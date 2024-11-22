@@ -17,7 +17,8 @@ li{
     justify-content: space-between;
     display: flex;
     padding: 10px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid #3d444d;
+    background-color: #010409;
 }
 
 .navbar-left{
@@ -28,19 +29,22 @@ li{
 
 .navbar-menu{
     padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
+    border: 1px solid #3d444d;
     border-radius: 0.5em;
     font-size: 20px;
     height: 40px;
+    color: #9198a1;
 }
 
 .navbar-logo{
     padding: 2px;
     font-size: 35px;
+    color: white;
 }
 
 .navbar-head p{
     margin-top: 10px;
+    color: white;
 }
 
 .navbar-right{
@@ -49,12 +53,18 @@ li{
 }
 
 .search{
-    border: 1px solid rgba(0, 0, 0, 0.25);
+    border: 1px solid #3d444d;
     display: flex;
     padding: 10px;
     width: 250px;
     height: 40px;
     border-radius: 0.5em;
+    color: #9198a1;
+}
+
+.search a i{
+    color: #9198a1;
+    padding-right: 2px;
 }
 
 .serach-input{
@@ -63,29 +73,32 @@ li{
     flex: 1;
     border: none;
     cursor: pointer;
+    color: #9198a1;
 }
 
 .create-new{
     padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
+    border: 1px solid #3d444d;
     border-radius: 0.5em;
     height: 40px;
 }
 
 .create-new a li i{
     padding-left: 10px;
+    color: #9198a1;
 }
 
 .navbar-last{
     padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
+    border: 1px solid #3d444d;
     border-radius: 0.5em;
     height: 40px;
+    color: #9198a1;
 }
 
 .navbar-profile{
     padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
+    border: 1px solid #3d444d;
     border-radius: 50%;
     height: 35px;
     width: 35px;
