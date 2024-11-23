@@ -17,6 +17,7 @@ li{
     justify-content: space-between;
     display: flex;
     padding: 10px;
+    height: 56px;
     border-bottom: 1px solid #3d444d;
     background-color: #010409;
 }
@@ -50,6 +51,7 @@ li{
 .navbar-right{
     display: flex;
     gap: 35px;
+    position: relative;
 }
 
 .search{
@@ -132,6 +134,7 @@ li{
     border-radius: 50%;
     height: 35px;
     width: 35px;
+    margin-right: 20px;
 }
 
 /* sidebar */
