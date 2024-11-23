@@ -114,6 +114,18 @@ li{
     color: #9198a1;
 }
 
+@media (max-width:900px){
+    .create-new{
+        display: none;
+    }
+}
+
+@media (max-width:800px){
+    .navbar-last-1{
+        display: none;
+    }
+}
+
 .navbar-profile{
     padding: 10px;
     border: 1px solid #3d444d;
