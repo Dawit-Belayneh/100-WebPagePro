@@ -155,9 +155,25 @@ li{
     padding-bottom: 1em;
 }
 
-.serach-sidebar{
+.search-sidebar{
     cursor: text;
+    border: 1px solid #3d444d;
+    display: flex;
+    padding: 10px;
+    width: 250px;
+    height: 40px;
+    border-radius: 0.5em;
+    color: #9198a1;
+}
 
+.serach-input-sidebar{
+    border: 1px solid #3d444d;
+    outline: none;
+    background: transparent;
+    flex: 1;
+    border: none;
+    cursor: pointer;
+    color: #9198a1;
 }
 
 .sidebar-top h2{
