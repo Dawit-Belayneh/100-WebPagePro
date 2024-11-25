@@ -33,7 +33,7 @@ li{
     border: 1px solid #3d444d;
     border-radius: 0.5em;
     font-size: 20px;
-    height: 40px;
+    height: 35px;
     color: #9198a1;
 }
 
@@ -59,7 +59,7 @@ li{
     display: flex;
     padding: 10px;
     width: 250px;
-    height: 40px;
+    height: 35px;
     border-radius: 0.5em;
     color: #9198a1;
 }
@@ -100,7 +100,7 @@ li{
     padding: 10px;
     border: 1px solid #3d444d;
     border-radius: 0.5em;
-    height: 40px;
+    height: 35px;
 }
 
 .create-new a li i{
@@ -112,7 +112,7 @@ li{
     padding: 10px;
     border: 1px solid #3d444d;
     border-radius: 0.5em;
-    height: 40px;
+    height: 35px;
     color: #9198a1;
 }
 
@@ -161,7 +161,7 @@ li{
     display: flex;
     padding: 10px;
     width: 250px;
-    height: 40px;
+    height: 35px;
     border-radius: 0.5em;
     color: #9198a1;
 }
@@ -179,7 +179,6 @@ li{
 .sidebar-top h2{
   font-size: 14px;
   font-weight: 600;
-  /* color: ; */
   margin-top: 10px;
 }
 
