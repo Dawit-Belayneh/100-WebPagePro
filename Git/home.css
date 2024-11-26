@@ -137,14 +137,18 @@ li{
     margin-right: 20px;
 }
 
-/* sidebar */
+/* sidebar and main content */
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
 
 .sidebar{
+    flex: 0 0 21%;
     padding-top: 3em;
     padding-left: 1.5em;
     border-right: 2px solid #3d444d;
-    margin-right: 78%;
-    height: 100vh;
     background-color: #0d1117;
     color: white;
 }
