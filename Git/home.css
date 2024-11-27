@@ -64,7 +64,7 @@ li{
 .search{
     border: 1px solid #3d444d;
     display: flex;
-    padding: 10px;
+    padding: 5px;
     width: 250px;
     height: 32px;
     border-radius: 0.3em;
@@ -78,6 +78,7 @@ li{
 }
 
 .serach-input{
+    
     outline: none;
     background: transparent;
     flex: 1;
