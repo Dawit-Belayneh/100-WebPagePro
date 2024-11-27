@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
 a{
     text-decoration: none;
+    background-color: transparent;
 }
 
 li{
@@ -16,8 +21,8 @@ li{
 .navbar{
     justify-content: space-between;
     display: flex;
-    padding: 10px;
-    height: 56px;
+    padding: 1rem;
+    height: 60px;
     border-bottom: 1px solid #3d444d;
     background-color: #010409;
 }
@@ -29,22 +34,26 @@ li{
 }
 
 .navbar-menu{
-    padding: 10px;
     border: 1px solid #3d444d;
-    border-radius: 0.5em;
+    border-radius: 0.3em;
     font-size: 20px;
-    height: 35px;
+    height: 32px;
+    width: 32px;
     color: #9198a1;
+    /* display: grid; */
+    place-content: center;
+    font-size: 18px;
 }
 
 .navbar-logo{
-    padding: 2px;
-    font-size: 35px;
+    margin-bottom: 20;
+    font-size: 30px;
     color: white;
 }
 
 .navbar-head p{
     margin-top: 10px;
+    margin-bottom: 30px;
     color: white;
 }
 
@@ -200,14 +209,41 @@ li{
 .main{
     background-color: #010409;
     flex: 1;
+    padding: 20px;
+    padding-top: 25px;
 }
 
 .main-head{
-    display: flex;    
+    display: flex;
+    justify-content: space-between;    
 }
 
-.main-head h1{
+.main-head h2{
     color: white;
+    font-weight: 500;
+}
+
+.main-head-left{
+    display: flex;
+    gap: 12px;
+}
+
+.filter{
+    border:2px solid #3d444d;
+    border-radius: 5px;
+    padding: 6px;
+    color: white;
+    background-color: #3d444d;
+}
+
+.feedback{
+    color: #4493f8;
+    font-size: 12px;
+    padding-top: 8px;
+}
+.filter i{
+    color: #9198a1;
+    margin-right: 5px;
 }
 
 .right-sidebar{
