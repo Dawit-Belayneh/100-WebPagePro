@@ -140,6 +140,10 @@ li{
     border-radius: 0.3em;
 }
 
+.navbar-last:hover{
+    background-color: #3d444d;
+}
+
 @media (max-width:900px){
     .create-new{
         display: none;
@@ -260,6 +264,7 @@ li{
     font-size: 12px;
     padding-top: 8px;
 }
+
 .filter i{
     color: #9198a1;
     margin-right: 5px;
