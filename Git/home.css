@@ -58,7 +58,7 @@ li{
 
 .navbar-right{
     display: flex;
-    gap: 35px;
+    gap: 20px;
     position: relative;
 }
 
@@ -67,9 +67,10 @@ li{
     display: flex;
     padding: 10px;
     width: 250px;
-    height: 35px;
-    border-radius: 0.5em;
+    height: 32px;
+    border-radius: 0.3em;
     color: #9198a1;
+    margin-top: 5px;
 }
 
 .search a i{
@@ -84,6 +85,7 @@ li{
     border: none;
     cursor: pointer;
     color: #9198a1;
+    margin-bottom: 10px;
 }
 
 @media (max-width:1010px){
@@ -105,23 +107,35 @@ li{
 }
 
 .create-new{
-    padding: 10px;
+    padding: 0.5rem;
     border: 1px solid #3d444d;
     border-radius: 0.5em;
-    height: 35px;
+    display: grid;
+    place-content: center;
+    margin-top: 5px;
+    border-radius: 0.3em;
+    height: 32px;
+    width: auto;
 }
 
-.create-new a li i{
-    padding-left: 10px;
+.create-new a{
     color: #9198a1;
+}
+
+.create-new .plus{
+    margin-right:15px ;
 }
 
 .navbar-last{
-    padding: 10px;
     border: 1px solid #3d444d;
     border-radius: 0.5em;
-    height: 35px;
+    height: 32px;
+    width: 32px;
     color: #9198a1;
+    display: grid;
+    place-content: center;
+    margin-top: 5px;
+    border-radius: 0.3em;
 }
 
 @media (max-width:900px){
