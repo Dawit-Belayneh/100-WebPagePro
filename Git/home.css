@@ -58,8 +58,7 @@ li{
 
 .navbar-right{
     display: flex;
-    gap: 20px;
-    position: relative;
+    gap: 10px;
 }
 
 .search{
@@ -150,12 +149,16 @@ li{
 }
 
 .navbar-profile{
-    padding: 10px;
     border: 1px solid #3d444d;
     border-radius: 50%;
     height: 35px;
     width: 35px;
-    margin-right: 20px;
+    margin-right: 10px;
+    display: grid;
+    place-content: center;
+    margin-top: 5px;
+    height: 32px;
+    width: 32px;
 }
 
 /* sidebar and main content */
