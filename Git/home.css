@@ -281,11 +281,24 @@ li{
 }
 
 .under-head{
-    color: white;
+    color: #9198a1;
     display: flex;
     justify-content: space-between;
+    padding-top: 12px;
 }
 
 .under-head-left{
     display: flex;
+    gap: 15px;
+}
+
+.under-head-left i{
+    border: none;
+    border-radius:50%;
+    padding: 5px;
+    background-color: #656c7633;
+}
+
+.under-head i{
+    
 }
