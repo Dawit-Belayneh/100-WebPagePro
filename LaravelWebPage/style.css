@@ -27,16 +27,16 @@
     padding-left: 100px;
 }
 
-ul{
+.navbar-menu ul{
     list-style: none;
 }
 
-ul li{
+.navbar-menu ul li{
     display: inline-block;
     position: relative;
 }
 
-ul li a{
+.navbar-menu ul li a{
     display: block;
     text-decoration: none;
     padding: 10px 25px;
@@ -44,11 +44,12 @@ ul li a{
     text-align: center;
 }
 
-.ecosystem a{
+/* .ecosystem a{
     display: flex;
-}
+} */
+
 /* ecosystem icon area */
-ul li a span.material-symbols-outlined{
+.navbar-menu ul li a span.material-symbols-outlined{
    margin-left: 10px;
 }
 
@@ -56,18 +57,18 @@ ul li a span.material-symbols-outlined{
     transform: rotate(180deg);
 } */
 
-ul li ul.dropdown li{
+.navbar-menu ul li ul.dropdown li{
     display: block;
 }
 
-ul li ul.dropdown{
+.navbar-menu ul li ul.dropdown{
     width: 100%;
     position: absolute;
     z-index: 999;
     display: none;
 }
 
-ul li:hover ul.dropdown{
+.navbar-menu ul li:hover ul.dropdown{
     display: block;
 }
 
