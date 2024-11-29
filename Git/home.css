@@ -305,6 +305,11 @@ li{
     color: white;
 }
 
+.main-conatainer{
+    display: flex;
+    gap: 10px;
+}
+
 .left-container{
     color: white;
     border: 1px solid #3d444d;
@@ -380,4 +385,32 @@ li{
     color: white;
     background-color: #238636;
     margin: 15px;
+}
+
+.right-container{
+
+}
+
+.box{
+
+}
+
+.title-box{
+    display: flex;
+}
+
+.title-box p{
+    font-size: 12px;
+    color: white;
+} 
+
+.title-box button{
+    margin-right: 1.65em;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    display: flex;
+    gap: 0.3em;
+    padding: 6px;
+    border-radius: 5px;
+    color: white;
+    background-color: #238636;
 }
