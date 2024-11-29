@@ -66,18 +66,32 @@
                 </div>
             </div>
             <div>
-
-                <div>
-                    <h3>start a new repository for @User..</h3>
+                <div class="left-container">
+                    <h4>start a new repository for @User..</h4>
                     <p>
                         A repsitory contains all of your project's <br>
                         files, revision history, and collaborator <br>
                         discussion.
                     </p>
-                    <h3>Repository name *</h3>
-                    <input type="search">
+                    <h4>Repository name *</h4>
+                    <div class="search-left-container">
+                        <input type="search" placeholder="name your new repository...">
+                    </div>
 
-                    <button>Create a new repositorybutton>
+                    <div class="radio">
+                        <input type="radio" name="public" value="public"><label for="public">Public</label>
+                        <p>
+                            Anyone on teh internet can see this <br>
+                            repository
+                        </p>
+                        <input type="radio" name="private" value="private"><label for="private">Private</label>
+                        <p>
+                            You choose who can see and commit to this <br>
+                            repository
+                        </p>
+                    </div>
+
+                    <button class="container-button">Create a new repository</button>
                 </div>
 
                 <div>

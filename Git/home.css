@@ -304,4 +304,80 @@ li{
 .under-head-right{
     color: white;
 }
-    
+
+.left-container{
+    color: white;
+    border: 1px solid #3d444d;
+    background-color: #151b23;
+    margin-top: 10px;
+    width: 49.9%;
+    box-shadow:  0px 3px 6px 0px #010409cc;
+    border-radius: 6px;
+}
+
+.left-container h4{
+    font-weight: 600;
+    font-size: 14px;
+    margin: 15px;
+}
+
+.left-container p{
+    font-size: 14px;
+    color: #9198a1;
+    font-weight: 400;
+    margin: 15px;
+}
+
+.search-left-container{
+    border: 1px solid #3d444d;
+    display: flex;
+    padding: 10px;
+    width: 270px;
+    height: 35px;
+    border-radius: 0.5em;
+    color: #9198a1;
+    background-color: #0d1117;
+    margin: 15px;
+}
+
+.search-left-container input{
+    border: 1px solid #3d444d;
+    outline: none;
+    background: transparent;
+    flex: 1;
+    border: none;
+    cursor: pointer;
+    color: #9198a1;
+}
+
+.radio{
+    margin: 15px;
+}
+
+.radio input{
+    color: #0d1117;
+    border: 1px solid #3d444d;
+}
+
+.radio label{
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.radio p{
+    margin-top: 5px;
+    font-size: 0.75rem;
+}
+
+.container-button{
+    margin-right: 1.65em;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    display: flex;
+    gap: 0.3em;
+    padding: 6px;
+    border-radius: 5px;
+    color: white;
+    background-color: #238636;
+    margin: 15px;
+}
