@@ -456,3 +456,22 @@ li{
     text-decoration: underline;
 }
 
+.last-container i{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #9198a1;
+}
+
+.last-container button{
+    margin-right: 1.65em;
+    border: 1px solid #3d444d;
+    display: flex;
+    gap: 0.3em;
+    padding: 6px;
+    border-radius: 5px;
+    color: white;
+   
+    margin: 15px;
+}
+
