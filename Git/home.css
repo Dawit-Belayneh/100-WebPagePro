@@ -433,3 +433,26 @@ li{
     margin-right:12px;
     height: 8px;
 }
+
+.description{
+    display: flex;
+    margin-left: 20px;
+}
+
+.description i{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.description p{
+    margin-top: 3px;
+}
+
+.description p a{
+    color: #4493f8;
+}
+
+.description p a:hover{
+    text-decoration: underline;
+}
+
