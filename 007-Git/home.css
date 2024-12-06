@@ -494,9 +494,28 @@ li{
     margin-top: 5px;
 }
 
+.first-box-head h2{
+    font-weight: 500;
+}
+
 .first-box-head i{
     margin-left: 100px;
     margin-top: 10px;
     font-size: 12px;
+}
+
+.first-box-intro p{
+    color: white;
+    font-size: 13px;
+}
+
+.first-box-intro button{
+    margin-left: 5%;
+    padding: 8px;
+    width: 280px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 
