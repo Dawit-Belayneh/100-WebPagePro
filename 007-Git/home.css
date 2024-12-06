@@ -465,7 +465,7 @@ li{
     padding: 6px;
     border-radius: 5px;
     color: white;
-   background-color: #151b23;
+    background-color: #151b23;
     margin: 15px;
 }
 
@@ -475,7 +475,6 @@ li{
     flex: 0 0 25%;
     background-color: #010409;
     border-left: 2px solid #3d444d;
-    color: white;
 }
 
 .first-box{
@@ -489,4 +488,15 @@ li{
     margin-top: 20px;
 }
 
+.first-box-head{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.first-box-head i{
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 12px;
+}
 
