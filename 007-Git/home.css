@@ -535,14 +535,19 @@ li{
 .list ul li h4{
     margin: 5px;
     color: white;
-    
 }
 
-.list ul li a:hover{
+.list ul li h4:hover{
     text-decoration: underline;
+    color: #4493f8;
 }
 
 .list ul li p{
     margin: 5px;
     font-size: 12px;
+}
+
+.view:hover{
+    text-decoration: underline;
+    color: #4493f8;
 }
