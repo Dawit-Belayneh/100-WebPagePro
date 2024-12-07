@@ -533,8 +533,9 @@ li{
 }
 
 .list ul li h4{
-    margin-left: 5px;
+    margin: 5px;
     color: white;
+    
 }
 
 .list ul li a:hover{
@@ -542,6 +543,6 @@ li{
 }
 
 .list ul li p{
-    margin-left: 5px;
+    margin: 5px;
     font-size: 12px;
 }
