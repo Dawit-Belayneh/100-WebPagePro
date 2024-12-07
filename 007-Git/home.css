@@ -14,7 +14,7 @@ a{
 }
 
 li{
-    list-style: none;
+    /* list-style: none; */
     text-decoration: none;
 }
 
@@ -30,6 +30,7 @@ li{
 .navbar-left{
     display: flex;
     gap: 12px;
+    list-style: none;
 }
 
 .navbar-menu{
@@ -59,6 +60,7 @@ li{
 .navbar-right{
     display: flex;
     gap: 10px;
+    list-style: none;
 }
 
 .search{
@@ -519,3 +521,17 @@ li{
     cursor: pointer;
 }
 
+.second-box{
+    border: 1px solid #3d444d;
+    border-radius: 6px;
+    width: 95%;
+    margin-top: 20px;
+}
+
+.list{
+    margin-left: 32px;
+}
+
+.list ul{
+    
+}
