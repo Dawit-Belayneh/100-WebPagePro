@@ -561,6 +561,9 @@ li{
 
 .first-row{
     margin-left: 18px;
+    margin-right: 18px;
+    border-bottom: 2px solid #3d444d;
+    margin-bottom: 10px;
 }
 
 .top-profile{
@@ -606,8 +609,22 @@ li{
 
 .rate i{
     font-size: 12px;
+    margin-top: 3px;
+}
+
+.star-k{
+    color: #9198a1;
 }
 
 .rate p{
     font-size: 12px;
+    margin-top: 1px;
+    margin-left: 3px;
+}
+
+.language-color{
+  background-color: #4493f8;
+  height: 10px;
+  border-radius: 50%;
+  color: #4493f8;
 }
