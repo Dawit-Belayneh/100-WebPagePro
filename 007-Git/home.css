@@ -532,6 +532,16 @@ li{
     margin-left: 32px;
 }
 
-.list ul{
-    
+.list ul li h4{
+    margin-left: 5px;
+    color: white;
+}
+
+.list ul li a:hover{
+    text-decoration: underline;
+}
+
+.list ul li p{
+    margin-left: 5px;
+    font-size: 12px;
 }
