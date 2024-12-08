@@ -494,6 +494,10 @@ li{
     color: #4493f8;
     margin-left: 1px;
 }
+
+.three-dot{
+    margin-left: 55%;
+}
 /* right container side css */
 
 .right-sidebar{
