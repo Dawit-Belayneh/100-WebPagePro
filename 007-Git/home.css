@@ -471,6 +471,29 @@ li{
     margin: 15px;
 }
 
+.main-last{
+    width:100%;
+}
+
+.trending{
+    display: flex;
+    margin: 15px;
+}
+
+.trending i{
+    color:#9198a1;
+    margin-top: 2px;
+}
+
+.trending p{
+    margin-top: 1px;
+    margin-left: 5px;
+}
+
+.trending a{
+    color: #4493f8;
+    margin-left: 1px;
+}
 /* right container side css */
 
 .right-sidebar{
