@@ -527,6 +527,14 @@ li{
     font-weight: 400;
     margin: 15px;
 }
+
+.trending-rate{
+    margin-left: 10px;
+}
+
+.trending-rate i{
+    margin-left: 10px;
+} 
 /* right container side css */
 
 .right-sidebar{
