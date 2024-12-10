@@ -526,6 +526,7 @@ li{
     color: white;
     font-weight: 400;
     margin: 15px;
+    font-size: 14px;
 }
 
 .trending-rate{
@@ -535,6 +536,28 @@ li{
 .trending-rate i{
     margin-left: 10px;
 } 
+
+.trending-content{
+    border-bottom: 2px solid #3d444d;
+    padding-bottom: 5px;
+}
+
+.trending-right{
+    margin-left: 45%;
+    border: 1px solid #3d444d;
+    border-radius: 0.5em;
+    height: 28px;
+    width: 40px;
+    color: #9198a1;
+    place-content: center;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #212830;
+}
+
+.second-right{
+    margin-left:60%;
+}
 /* right container side css */
 
 .right-sidebar{
