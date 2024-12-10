@@ -486,11 +486,13 @@ li{
     margin-top: 15px;
     margin-left: 15px;
     color:#9198a1;
+    font-size: 14px;
+    gap: 5px;
 }
 
 .trending i{
     color:#9198a1;
-    margin-top: 2px;
+    margin-top: 5px;
 }
 
 .trending p{
@@ -511,6 +513,19 @@ li{
     margin-left: 10px;
     display: flex;
     place-items: center;
+    margin-top: 10px;
+}
+
+.trending-profile h4{
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.trending-text p{
+    color: white;
+    font-weight: 400;
+    margin: 15px;
 }
 /* right container side css */
 
