@@ -473,11 +473,19 @@ li{
 
 .main-last{
     width:100%;
+    color: white;
+    border: 1px solid #3d444d;
+    background-color: #151b23;
+    margin-top: 10px;
+    box-shadow:  0px 3px 6px 0px #010409cc;
+    border-radius: 6px;
 }
 
 .trending{
     display: flex;
-    /* margin: 15px; */
+    margin-top: 15px;
+    margin-left: 15px;
+    color:#9198a1;
 }
 
 .trending i{
