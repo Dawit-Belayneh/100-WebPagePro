@@ -740,6 +740,21 @@ footer{
     margin-top: 12px;   
 }
 
+.footer-second{
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+    gap: 15px;
+    margin-left: 50px;
+}
 
+.footer-second a{
+    color: #9198a1;
+}
+
+.footer-second a:hover{
+    color: #4493f8;
+    text-decoration: underline;
+}
 
 
