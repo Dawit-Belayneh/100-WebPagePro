@@ -757,4 +757,18 @@ footer{
     text-decoration: underline;
 }
 
+.Privacy {
+  margin-left: 45%;
+  list-style: none;
+  font-size: 14px;
+}
+
+.Privacy a{
+    color: #9198a1;
+}
+
+.Privacy a:hover{
+    color: #4493f8;
+    text-decoration: underline;
+}
 
