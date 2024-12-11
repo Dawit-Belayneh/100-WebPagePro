@@ -714,3 +714,32 @@ li{
   border-radius: 50%;
   color: #4493f8;
 }
+
+/* footer */
+
+footer{
+   margin-top: 100px;
+   margin-left: 15px;
+   color: #9198a1;
+}
+
+.footer-first{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    color: #9198a1;
+}
+
+.footer-logo{
+    font-size: 25px;
+    color: #9198a1;
+}
+
+.copy-right{
+    font-size: 12px;
+    margin-top: 12px;   
+}
+
+
+
+
