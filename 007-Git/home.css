@@ -563,8 +563,14 @@ li{
 .right-sidebar{
     flex: 0 0 25%;
     background-color: #010409;
-    border-left: 2px solid #3d444d;
 }
+
+@media (max-width:1280px){
+    .right-sidebar{
+        display: none;
+    }
+}
+
 
 .first-box{
     background-image: url(img/copilot.png);
