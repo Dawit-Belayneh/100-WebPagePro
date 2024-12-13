@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: "Roboto Mono", "Roboto Mono", "Vazirmatn", monospace;
+    color: #d1d0c5;
+    overflow-x:hidden;
+    background-color: #323437;
+}
+
+a{
+    color: #d1d0c5;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+li{
+    list-style: none;
+}
