@@ -21,3 +21,23 @@ a{
 li{
     list-style: none;
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.3rem;
+    padding: 2rem;
+}
+
+.navbar-left-corner{
+    place-content: center;
+}
+
+.navbar-left-corner ul{
+    display: flex;
+    gap: 1em;
+}
+
+.navbar-right-corner ul{
+    display: flex;
+}
