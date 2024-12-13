@@ -27,6 +27,7 @@ li{
     justify-content: space-between;
     line-height: 2.3rem;
     padding: 2rem;
+    align-items: center;
 }
 
 .navbar-left-corner{
@@ -35,9 +36,23 @@ li{
 
 .navbar-left-corner ul{
     display: flex;
-    gap: 1em;
+    gap: 2em;
+}
+
+.keyboard-logo{
+    background-color: transparent;
+    font-size: 2.3rem;
+    color: yellow;
+}
+
+.navbar-list{
+    font-family: 1rem;
+    line-height: 1rem;
+    color: #646669;
+    font-size: 18px;
 }
 
 .navbar-right-corner ul{
     display: flex;
+    gap: 2em;
 }
