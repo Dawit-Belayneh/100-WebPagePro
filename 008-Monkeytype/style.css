@@ -36,7 +36,7 @@ li{
 
 .navbar-left-corner ul{
     display: flex;
-    gap: 2em;
+    gap: 1em;
 }
 
 .keyboard-logo{
@@ -50,9 +50,14 @@ li{
     line-height: 1rem;
     color: #646669;
     font-size: 18px;
+    margin-top: 15px;
+}
+
+.navbar-list:hover{
+    color: white;
 }
 
 .navbar-right-corner ul{
     display: flex;
-    gap: 2em;
+    gap: 1em;
 }
