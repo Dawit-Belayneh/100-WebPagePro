@@ -147,3 +147,24 @@ li{
     
 }
 
+.text{
+   color: #646669;
+   text-align: center;
+   font-size: 30px;
+   margin-top: 2%;
+   font-weight: 500;
+}
+
+.refresh{
+   color: #646669;
+   text-align: center;
+   font-size: 30px;
+   margin-top: 4%;
+   cursor: pointer;
+}
+
+.shortcut-1{
+    display: flex;
+    color: #646669;
+    justify-content: center;
+}
