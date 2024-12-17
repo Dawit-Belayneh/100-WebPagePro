@@ -73,6 +73,10 @@ li{
     .logo-head{
         font-size: 2rem;
     }
+    .row{
+       width: 75%;
+       padding: 1px;
+    }
 }
 
 @media (max-width:1100px){
