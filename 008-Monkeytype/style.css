@@ -104,3 +104,14 @@ li{
         margin-right: 1rem;
     }
 }
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c2e31;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
