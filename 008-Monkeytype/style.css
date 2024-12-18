@@ -51,6 +51,7 @@ li{
     color: #646669;
     font-size: 18px;
     margin-top: 15px;
+    transition: all 0.3s ease;
 }
 
 .navbar-list:hover{
@@ -158,7 +159,7 @@ li{
 .refresh{
    color: #646669;
    text-align: center;
-   font-size: 30px;
+   font-size: 25px;
    margin-top: 4%;
    cursor: pointer;
 }
@@ -175,11 +176,51 @@ li{
 }
 
 .shortcut-1 button{
-    background-color: #828791;
+    background-color: #646669;
     border: none;
     outline: none;
     border-radius: 2px;
     padding: 2px;
-    color: #4f5153;
+    color: #323437;
     margin-top: 5px;
+}
+
+.last-footer{
+    display: flex;
+    justify-content:space-between;
+}
+
+.left-footer{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.left-footer ul{
+    display: flex;
+    gap: 10px;
+
+}
+
+.right-footer{
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.right-footer ul{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-list{
+    font-size: 0.75rem;
+    color: #646669;
+    transition: all 0.3s ease;
+}
+
+.footer-list:hover{
+    color: white;
+}
+
+.footer-list i{
+    margin-right: 5px;
 }
