@@ -13,7 +13,6 @@ body{
 
 a{
     text-decoration: none;
-    color: white;
 }
 
 li{
@@ -23,7 +22,6 @@ li{
 .sidebar{
     width: 250px;
     background-color: #2c2e31;
-    color: white;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -36,6 +34,16 @@ li{
 .sidebar-top{
     display: flex;
     justify-content: space-between;
+}
+
+.side{
+    color: #9b9b9b;
+}
+
+.top-search{
+    color: #9b9b9b;
+    font-size: 1.6em;
+    font-weight: 500;
 }
 
 .list-sidebar{
@@ -64,6 +72,30 @@ li{
 
 .under-sidebar{
    margin-top: auto; 
+   display: flex;
+   gap: 10px;
+}
+
+.left-under{
+    margin-top: 5px;
+    
+}
+
+.left-under a span{
+    border: 1px solid hsla(0, 0%, 100%, .1);
+    border-radius: 50%;
+    color: #9b9b9b;
+}
+
+.right-under a h4{
+    color: white;
+    font-weight: 500;
+}
+
+.right-under a p{
+    font-size: 0.75rem;
+    color: #9b9b9b;
+    margin-top: 5px;
 }
 
 
