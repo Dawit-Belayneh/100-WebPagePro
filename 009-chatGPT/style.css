@@ -46,14 +46,13 @@ li{
     border-radius: 50%;
     border: 1px solid;
     margin-right: 10px;
-    flex-shrink: 0;
 }
 
 .items{
     margin-bottom: 10px;
 }
 
-.items a{
+.items{
     font-size: .875rem;
     line-height: 1.25rem;
     color: #ececec;
@@ -61,6 +60,10 @@ li{
 
 .apps{
     margin-right: 10px;
+}
+
+.under-sidebar{
+   margin-top: auto; 
 }
 
 
