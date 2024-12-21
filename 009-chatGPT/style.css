@@ -21,7 +21,7 @@ li{
 
 .sidebar{
     width: 250px;
-    background-color: #2c2e31;
+    background-color: #171717;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -46,11 +46,15 @@ li{
     margin-right: 5px;
 }
 
+.list-sidebar{
+    padding-top: 15px;
+}
+
 .items{
     display: flex;
     align-items: center;
-    padding-top: 10px;
     cursor: pointer; 
+    padding-top: 10px;
 }
 
 .items a{
@@ -64,13 +68,13 @@ li{
 .img{
     border-radius: 50%;
     border: 1px solid hsla(0, 0%, 100%, .1);
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
 }
 
 .apps{
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
 }
 
 .under-sidebar{
