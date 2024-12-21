@@ -37,37 +37,40 @@ li{
 }
 
 .side{
-    color: #9b9b9b;
+    color: #b4b4b4;
 }
 
 .top-search{
-    color: #9b9b9b;
+    color: #b4b4b4;
     font-size: 1.6em;
-    font-weight: 500;
+    margin-right: 5px;
 }
 
-.list-sidebar{
-    margin-top: 17px;
+.items{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    cursor: pointer; 
+}
+
+.items a{
+    font-size: .875rem;
+    color: #ececec;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .img{
     border-radius: 50%;
-    border: 1px solid;
-    margin-right: 10px;
-}
-
-.items{
-    margin-bottom: 10px;
-}
-
-.items{
-    font-size: .875rem;
-    line-height: 1.25rem;
-    color: #ececec;
+    border: 1px solid hsla(0, 0%, 100%, .1);
+    width: 20px;
+    height: 20px;
 }
 
 .apps{
-    margin-right: 10px;
+    width: 20px;
+    height: 20px;
 }
 
 .under-sidebar{
