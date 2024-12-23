@@ -220,10 +220,54 @@ li{
 
 /* main content */
 
-.main-content {
-    flex: 1; /* Fill the remaining space */
+.main{
+    flex: 1;
     padding: 20px;
-    background-color: #f4f4f4;
-    overflow-y: auto; /* Enable vertical scrolling for main content */
-    height: 100vh; /* Full height of the viewport */
+    background-color: #212121;
+    overflow-y: hidden;
+    height: 100vh;
+}
+
+.main-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-main-head{
+    display: flex;
+    gap: 5px;
+    color: #b4b4b4;
+    cursor: pointer;
+}
+
+.left-main-head:hover{
+    background-color: #9b9b9b2a;
+    border-radius: 5px;
+}
+
+.left-main-head h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.right-main-profile a{
+    color: #b4b4b4;
+}
+
+.right-main-profile a span{
+    border: 1px solid #b4b4b4;
+    border-radius: 50%;
+}
+
+/* main center */
+
+.main-center{
+    margin-top: 14%;
+    text-align: center;
+    justify-content: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
 }
