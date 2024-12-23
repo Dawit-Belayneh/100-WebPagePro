@@ -314,8 +314,26 @@ li{
 
 .input-icon-left{
     margin-left: 1%;
+    margin-top: 10px;
+}
+
+.input-icon-left span{
+    color: white;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.input-icon-left span:hover{
+    background-color: #212121;
+    border-radius: 2px;
 }
 
 .voice-icon-right{
     margin-right: 1%;
+}
+
+.voice-icon-right span{
+   border-radius: 50%;
+   background-color: white;
+   cursor: pointer;
 }
