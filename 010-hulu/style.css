@@ -40,3 +40,20 @@ body{
     padding: 10px;
     background-color: #e4dddd;
 }
+
+.main-center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding-top: 80px;
+}
+
+.left-center p{
+  text-transform: uppercase;
+  color: #00ED82;
+  font-size: 14px;
+  font-weight: 600;
+  left: 0.6px;
+  padding-bottom: 10px;
+}
