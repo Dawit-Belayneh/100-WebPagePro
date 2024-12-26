@@ -6,6 +6,37 @@
 
 body{
     background-color: #f6f7f8;
-    font-family: Graphik,Helvetica,Arial,sans-serif;
+    font-family: "Graphik Web" ,Helvetica,Arial,sans-serif;
     overflow-x: hidden;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-navbar{
+    color: #1ce783;
+}
+
+.right-navbar{
+    padding-right: 40px;
+}
+
+.right-navbar a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    line-height: 1;
+    color: #a8afbd;
+    padding: 10px;
+}
+
+.right-navbar a:hover{
+    padding: 10px;
+    background-color: #e4dddd;
 }
