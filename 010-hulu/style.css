@@ -10,6 +10,11 @@ body{
     overflow-x: hidden;
 }
 
+.main{
+    background-image: url(img/movies.png);
+    height: 530px;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -61,6 +66,7 @@ body{
 .left-center h2{
     font-size: 25px;
     font-weight: 600;
+    color: white;
 }
 
 .left-center button{
@@ -87,4 +93,19 @@ body{
 .apply-link a{
     color: black;
     font-size: 15px;
+}
+
+.sign-up{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 700;
+}
+
+.sign-up a{
+    color: white;
+    letter-spacing: 0.6;
+}
+
+.sign-up a:hover{
+    text-decoration: none;
 }
