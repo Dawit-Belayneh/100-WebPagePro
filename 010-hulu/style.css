@@ -57,3 +57,34 @@ body{
   left: 0.6px;
   padding-bottom: 10px;
 }
+
+.left-center h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.left-center button{
+    background-color: #1ce783;
+    color: #0b0c0f;
+    border: none;
+    width: 80%;
+    height: 20%;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.6;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.left-center button:hover{
+    background-color: #13a05a;
+}
+
+.apply-link a{
+    color: black;
+    font-size: 15px;
+}
