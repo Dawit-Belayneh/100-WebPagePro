@@ -94,7 +94,7 @@ body{
 }
 
 .apply-link a{
-    color: black;
+    color: white;
     font-size: 15px;
 }
 
@@ -133,23 +133,34 @@ body{
 }
 
 .right-ads{
-    padding-top: 10px;
-    padding-right: 0px;
+    margin-right: 40px;
+    margin-top: 5px;
 }
+
 
 .right-ads button{
     background-color: #1ce783;
     color: #0b0c0f;
     border: none;
     width: 130%;
-    height: 00%;
+    height: 80%;
     border-radius: 5px;
     font-weight: 700;
     font-size: 15px;
-    margin-top: 16px;
-    margin-bottom: 16px;
     text-transform: uppercase;
     letter-spacing: 0.6;
     cursor: pointer;
-    transition: all 0.3s ease;   
+    transition: all 0.3s ease; 
+    margin-bottom: 5px; 
+}
+
+.apply-link-ads{
+    text-align: center;
+    margin-left: 30px;
+}
+
+.apply-link-ads a{
+    text-decoration: none;
+    font-size: 10px;
+    color: #fff;
 }
