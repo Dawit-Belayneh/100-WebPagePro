@@ -12,6 +12,9 @@ body{
 
 .main{
     background-image: url(img/movies.png);
+    /* background-image: 
+    (318.68deg, rgb(15, 73, 92), rgb(13, 54, 64) 49.72%, rgb(8, 20, 31)),
+    url('img/movies.png'); */
     height: 530px;
 }
 
@@ -108,4 +111,25 @@ body{
 
 .sign-up a:hover{
     text-decoration: none;
+}
+
+.ads{
+    background: linear-gradient(318.68deg, #0f495c, #0d3640 49.72%, #08141f);
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 40px;
+    z-index: 1;
+}
+
+.left-ads h1{
+    color: #1ce783;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.right-ads{
+    display: flex;
+    flex-direction: column;
 }
