@@ -134,12 +134,10 @@ body{
 
 .right-ads{
     margin-right: 40px;
-    margin-top: 5px;
 }
 
-
 .right-ads button{
-    background-color: #1ce783;
+    background-color: #00ED82;
     color: #0b0c0f;
     border: none;
     width: 130%;
@@ -151,7 +149,11 @@ body{
     letter-spacing: 0.6;
     cursor: pointer;
     transition: all 0.3s ease; 
-    margin-bottom: 5px; 
+    margin-bottom: 1px; 
+}
+
+.right-ads button:hover{
+    background-color: #13a05a;
 }
 
 .apply-link-ads{
@@ -163,4 +165,23 @@ body{
     text-decoration: none;
     font-size: 10px;
     color: #fff;
+}
+
+.build{
+    text-align: center;
+    padding: 38px 40px;
+    z-index: 1;
+    background: linear-gradient(180deg, #29A869 0.66%, #16181D 99.34%);
+}
+
+.build h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+
+.build button{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 20%;
 }
