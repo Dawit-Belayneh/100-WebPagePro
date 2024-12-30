@@ -199,3 +199,22 @@ body{
 
 /* plans css */
 
+.plan{
+    background-color: black;
+    color: white;
+}
+
+.plan-head{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.plan-head-text h1{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.plan-text{
+    margin-bottom: 5%;
+}
