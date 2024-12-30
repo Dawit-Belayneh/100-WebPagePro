@@ -218,3 +218,44 @@ body{
 .plan-text{
     margin-bottom: 5%;
 }
+
+.plans-img{
+    display: grid;
+    gap: 16px;
+    padding: 16px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.img{
+    position: relative;
+}
+
+.img-text span{
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+
+.img-text h3{
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+.img .img-text{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    transform: translate(-50%, -50%); 
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.img-plan{
+    padding: 10px;
+}
+
+.img-plan img{
+    height: 451px;
+    width: 295px;
+}
