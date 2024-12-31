@@ -279,3 +279,49 @@ body{
 .img-plan img:hover{
     border: 4px solid hsla(0, 0%, 100%, 0.5);
 }
+
+.img-plan-text{
+    float: right;
+    margin-right: 4%;
+}
+
+.under-img{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.trial-button button{
+    background-color: #00ED82;
+    color: #0b0c0f;
+    border: none;
+    width: 18%;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.6;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.img-min-text{
+    font-size: 10px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.last-plan-link{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 70px;
+}
+
+.last-plan-link a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
