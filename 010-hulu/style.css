@@ -202,6 +202,7 @@ body{
 .plan{
     background-color: black;
     color: white;
+    width: 100%;
 }
 
 .plan-head{
@@ -226,6 +227,19 @@ body{
     grid-template-columns: repeat(4, 1fr);
 }
 
+@media (max-width: 1280px) {
+    .plans-img {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 630px) {
+    .plans-img {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
 .img{
     position: relative;
 }
@@ -233,7 +247,6 @@ body{
 .img-text span{
     font-size: 12px;
     font-weight: 500;
-    
 }
 
 .img-text h3{
@@ -258,4 +271,11 @@ body{
 .img-plan img{
     height: 451px;
     width: 295px;
+    border-radius: 16px;
+    border: 4px solid hsla(0,0%,100%,0);
+    cursor: pointer;
+}
+
+.img-plan img:hover{
+    border: 4px solid hsla(0, 0%, 100%, 0.5);
 }
