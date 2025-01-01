@@ -325,3 +325,72 @@ body{
     font-weight: 600;
     text-transform: uppercase;
 }
+
+/* events */
+
+.event{
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.8) -57.5%, rgba(0, 0, 0, 0) 98.72%), 
+    url(img/sports.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+
+.sport-event{
+    text-align: left;
+    padding: 140px;
+}
+
+.event-btn{
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    color: hsla(0, 0%, 100%, .4);
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.sport-btn{
+    border-bottom: 4px solid #fff;
+    color: white;
+}
+
+.sport-text{
+    color:#fff;
+    margin-top: 40px;
+}
+
+.sport-text h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.sport-text p{
+    margin-top: 20px ;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sport-channel{
+    margin-top: 40px;
+}
+
+.sport-channel img{
+  border-radius: 50%;
+  font-size: 10px;
+  margin-right:20px;
+}
+
+.min-text{
+    font-size: 10px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+    margin-top: 10px; 
+}
+
+.min-text a{
+    color: hsla(0, 0%, 100%, 0.6);
+}
