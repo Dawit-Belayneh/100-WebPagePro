@@ -394,3 +394,105 @@ body{
 .min-text a{
     color: hsla(0, 0%, 100%, 0.6);
 }
+
+.select{
+    background-color: black;
+    color:white;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.slect-head h1{
+    font-size: 48px;
+}
+
+.slect-head p{
+    margin-top: 20px ;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.select-option{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-btn-1{
+    width: 15%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.select-btn-2{
+    width: 8%;
+    border-radius: 50px;
+    padding: 7px;
+    background-color: #00ED82;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.deal{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.basic{
+    display: flex;
+    flex-direction: column;
+}
+
+.basic h4{
+    color: #00ED82;
+    margin-bottom: 20px;
+}
+
+.duo{
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.deal-btn{
+    text-transform: uppercase;
+    width: 300px;
+    height: 50px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.save{
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.last-select{
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.last-select a{
+    color: white;
+    text-decoration: none;
+    border-top: 1px solid rgba(200, 200, 200, 0.4); 
+    border-bottom: 1px solid rgba(200, 200, 200, 0.4);
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
