@@ -514,6 +514,7 @@ body{
 
 .first-footer{
     display: flex;
+    padding: 52px 0 86px;
 }
 
 .main-row{
@@ -523,4 +524,46 @@ body{
 .sub-row{
     display: flex;
     flex-direction: column;
+    padding-right: 80px;
+    font-size: 14px;
+    color: #586174;
+    gap: 10px;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.row h3{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #272c34;
+    padding-top: 8px;
+}
+
+.last-footer{
+    border-top: 2px solid #d9dce2;
+    padding-top: 50px;
+    padding-bottom: 32px;
+}
+
+.icons{
+    padding-bottom: 20px;
+}
+
+
+.icons a{
+    text-decoration: none;
+    color: #586174;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.more span{
+    font-size: 12px;
+    color: #586174;
+    padding-right: 30px;
+}
+
+.end{
+    padding-top: 10px;
 }
