@@ -65,6 +65,49 @@ body{
     margin-bottom: 15px;
 }
 
+.btn{
+    padding: 14px 16px;
+    width: 330px;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: #0866ff;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #3077e9;
+}
+
 .log-in a{
     text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #0866ff;
+}
+
+.create{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #dadde1;
+}
+
+.create button{
+    background-color: #42b72a;
+    padding: 14px 16px;
+    width: 200px;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.create button:hover{
+    background-color: #6bd456;
 }
