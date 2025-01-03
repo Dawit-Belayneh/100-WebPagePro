@@ -31,3 +31,40 @@ body{
     width: 500px;
     color: #1c1e21;
 }
+
+.log-in{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    border:none;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+    padding: 20px 20px 28px;
+    margin: 100px 0 0;
+}
+
+.input{
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+/* .input:hover{
+    border:1px solid #0866ff;
+} */
+
+.name{
+    margin-bottom: 15px;
+}
+
+.password{
+    margin-bottom: 15px;
+}
+
+.log-in a{
+    text-align: center;
+}
