@@ -13,6 +13,7 @@ body{
     justify-content: center;
     font-family: Helvetica, Arial, sans-serif;
     padding: 20px;
+    gap: 80px;
 }
 
 .left-main{
@@ -89,6 +90,10 @@ body{
     color: #0866ff;
 }
 
+.log-in a:hover{
+    text-decoration: underline;
+}
+
 .create{
     text-align: center;
     margin-top: 20px;
@@ -110,4 +115,23 @@ body{
 
 .create button:hover{
     background-color: #6bd456;
+}
+
+.under-conatiner{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.under-conatiner p{
+    font-size: 14px;
+}
+
+.under-conatiner p a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.under-conatiner p a:hover{
+    text-decoration: underline;
 }
