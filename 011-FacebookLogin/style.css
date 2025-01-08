@@ -183,3 +183,15 @@ footer{
 .copyright{
     font-size: 13px;
 }
+
+
+/* new account create page css */
+
+.create-account{
+    display: flex;
+    justify-content: center;
+}
+
+.main-form{
+    border: 4px solid black;
+}
