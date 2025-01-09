@@ -217,3 +217,30 @@ footer{
 .form{
     padding-top: 20px;
 }
+
+.first-name{
+    padding: 11px;
+    margin-right: 10px;
+    border: 1px solid #dddfe2;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.last-name{
+    padding: 11px;
+    border: 1px solid #ccd0d5;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.month{
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+    width: 125px;
+    margin-right: 10px
+}
