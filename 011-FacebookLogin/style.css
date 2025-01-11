@@ -332,6 +332,7 @@ footer{
     margin-top: 20px;
     background-color: #00a400;
     color: white;
+    cursor: pointer;
 }
 
 .last-button a{
@@ -340,4 +341,5 @@ footer{
     font-size: 18px;
     font-weight: 400;
     color: #1877f2;
+    cursor: pointer;
 }
