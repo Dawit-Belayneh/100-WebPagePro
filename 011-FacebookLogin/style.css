@@ -248,9 +248,6 @@ footer{
     padding-bottom: 10px;
 }
 
-.gender p{
-    
-}
 
 .male{
     background-color: #fff;
@@ -260,10 +257,11 @@ footer{
     flex: 1 0 auto;
     font-weight: normal;
     height: 36px;
-    margin: 8px 6px 6px;
+    margin: 8px 0px 6px;
     padding: 0;
     position: relative;
     width: auto;
+    border-radius: 5px;
 }
 
 .male label{
@@ -273,7 +271,7 @@ footer{
     font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
     font-size: 15px;
     line-height: 36px;
-    padding: 0 50px 0 10px;
+    padding: 0 65px 0 10px;
     width: 100%;
 }
 
@@ -283,4 +281,62 @@ footer{
     position: absolute;
     right: 10px;
     top: 0;
+}
+
+.Sign-in{
+    display: flex;
+    flex-direction: column;
+}
+
+.Sign-in input{
+    padding: 10px 16px;
+    width: 350px;
+    border: 1px solid #dddfe2;
+    font-size: 17px;
+    border-radius: 5px;   
+}
+
+.create-input-email{
+    margin-bottom:10px;
+}
+
+.text p{
+    color: #777;
+    font-size: 12px;
+}
+
+.text-1{
+    margin-bottom: 15px;
+}
+
+.link-a{
+    color: #385898;
+    text-decoration: none;
+}
+
+.last-button{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.sign-up{
+    padding: 10px 16px;
+    width: 200px;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left: 90px;
+    margin-top: 20px;
+    background-color: #00a400;
+    color: white;
+}
+
+.last-button a{
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1877f2;
 }
