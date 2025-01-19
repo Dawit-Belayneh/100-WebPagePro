@@ -8,9 +8,26 @@ li{
     list-style: none;
 }
 
+.navbar{
+    padding-top: 5px;
+}
+
 .navbar-top{
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #e5e5e5;
+    width: 100%;
+    position: absolute;
+    height: 30px;
+    box-sizing: initial
+}
+
+.navbar-top-left{
+    padding-left: 50px;
+}
+
+.navbar-top-right{
+    padding-right: 90px;
 }
 
 .navbar-top-left ul{
