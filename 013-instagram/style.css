@@ -8,6 +8,15 @@ body{
     background-color: rgb(0, 0, 0);
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
 .sidebar{
     position: fixed;
     top: 0;
@@ -20,4 +29,53 @@ body{
 
 .sidebar h1{
     color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.first-list{
+    padding-top: 15px;
+}
+
+.first-list li{
+    margin-bottom: 35px;
+}
+
+.first-list li:hover{
+    background-color: #ffffff38;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.Profile-img{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.Profile ul li a i img{
+    padding-left: 20px;
+    border-radius: 50%;
+}
+
+.Profile-img{
+    border-radius: 50;
+}
+.last-list li{
+    padding-top:20px;
+}
+
+.last-list li:hover{
+    background-color: #ffffff38;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.list ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.list ul li a i{
+    padding-right: 20px;
 }
