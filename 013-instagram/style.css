@@ -1,3 +1,5 @@
+/* fix the profile account area the image and text not problely */
+
 *{
     margin: 0;
     padding: 0;
@@ -16,9 +18,13 @@ a{
     text-decoration: none;
 }
 
+.container{
+    display: flex;
+    min-height: 100vh;
+}
 
 .sidebar{
-    position: fixed;
+    flex: 0 0 19%;
     top: 0;
     left: 0;
     height: 100%;
@@ -33,49 +39,71 @@ a{
     margin-bottom: 30px;
 }
 
-.first-list{
-    padding-top: 15px;
-}
-
-.first-list li{
-    margin-bottom: 35px;
-}
-
-.first-list li:hover{
-    background-color: #ffffff38;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-.Profile-img{
-    border: 1px solid white;
-    border-radius: 50%;
-}
-
-.Profile ul li a i img{
-    padding-left: 20px;
-    border-radius: 50%;
-}
-
-.Profile-img{
-    border-radius: 50;
-}
-.last-list li{
-    padding-top:20px;
-}
-
-.last-list li:hover{
-    background-color: #ffffff38;
-    border-radius: 5px;
-    padding: 10px;
-}
-
 .list ul li a{
     color: white;
     font-size: 20px;
     font-weight: 100;
 }
 
-.list ul li a i{
+.list-icons{
     padding-right: 20px;
+}
+
+.first-list{
+    padding-top: 1px;
+}
+
+.first-list li{
+    margin-bottom: 10px;
+    padding: 12px;
+}
+
+.first-list li:hover{
+    background-color: #ffffff38;
+    border-radius: 5px;
+}
+
+
+.profile-img{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.profile-text{
+
+}
+
+.last-list{
+    margin-top: 25px;
+}
+
+.menu-icon{
+    font-size: 25px
+}
+/* center */
+
+.main{
+    flex: 1;
+    border-right: 1px solid white;
+    padding: 20px;
+    padding-top: 25px;
+}
+
+/* stories */
+.storie ul{
+    display: flex;
+    gap: 10px;
+}
+.storie ul li img{
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+}
+
+
+/* suggest */
+
+.suggest{
+    flex: 0 0 25%;
+    border-left: 1px solid white;
 }
