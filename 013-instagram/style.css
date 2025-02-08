@@ -112,10 +112,16 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 15px;
 }
 
 .left-head{
     display: flex;
+    gap: 10px;
+}
+
+.right-head i{
+    padding-right: 60px;
 }
 
 /* suggest */
