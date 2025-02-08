@@ -64,8 +64,9 @@ a{
 
 
 .profile-img{
-    border: 1px solid white;
     border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
 }
 
 /* .profile-text{
@@ -124,10 +125,115 @@ a{
     padding-right: 60px;
 }
 
+.post-pic img{
+    border-radius: 10px;
+}
+
+.post-react{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+}
+
+.left-react i{
+    padding-right: 10px;
+    font-size: 23px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.right-react i{
+   padding-right: 60px;
+   font-size: 23px;
+   font-weight: 400;
+   cursor: pointer;
+   padding-bottom: 10px;
+}
+
+.post-description{
+    padding-bottom: 10px;
+}
+
+.likes-number{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.comment{
+    border-bottom: 1px solid #ffffff86;
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+    padding-bottom: 15px;
+}
+
+.comment input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+}
+
+.comment input:hover{
+    color: white;
+}
+
+.comment .smile{
+    color: #ffffffa1;
+    font-weight: 400;
+    font-size: 14px;
+}
+
 /* suggest */
 
 .suggest{
-    flex: 0 0 10%;
     border-left: 1px solid white;
     color: white;
+    padding-top: 30px;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.name{
+    flex-grow: 1;
+}
+
+.follow-btn{
+    padding-left: 100px;
+}
+
+.suggest-head{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.real-name{
+    color: rgb(168, 168, 168);
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.name-sug{
+    color:rgb(168, 168, 168);
+    font-size: 12px;
+}
+
+.follow-btn{
+    font-size: 12px;
+    font-weight: 600;
+    color: blue;
+    line-height: 16px;
+    transition: color 0.1s ease;
+}
+
+.follow-btn:hover{
+    color: rgb(224, 241, 255);
 }
