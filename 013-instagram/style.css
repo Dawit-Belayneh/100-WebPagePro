@@ -48,10 +48,42 @@ a{
     overflow-y: hidden;
 }
 
+.head-icon{
+    display: none;
+   
+}
+
+.sidebar .head-icon{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    padding-left: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
 .list-icons{
     padding-right: 20px;
 }
 
+@media (max-width:1260px){
+    .sidebar{
+        width: 80px;
+    }.sidebar h1{
+        display: none;
+    }.list-text-active  {
+        display: none;
+    }.list-text{
+        display: none;
+    }.profile-text{
+        display: none;
+    }.sidebar .head-icon{
+        display: block;
+        color: rgb(245, 245, 245);
+    }.main{
+        margin-right: px;
+    }
+}
 .first-list{
     padding-top: 1px;
 }
