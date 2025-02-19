@@ -46,9 +46,6 @@ a{
 
 .list ul li a{
     color: rgb(245, 245, 245);
-    font-size: 20px;
-    /* font-weight: 100; */
-    overflow-y: hidden;
 }
 
 .head-icon{
@@ -61,12 +58,14 @@ a{
     margin-bottom: 30px;
     font-weight: 400;
     padding-left: 15px;
-    font-size: 25px;
     cursor: pointer;
 }
 
 .list-icons{
     padding-right: 20px;
+    color: rgb(245, 245, 245);
+    font-size: 20px;
+    line-height: 20px;
 }
 
 @media (max-width:1260px){
@@ -102,9 +101,9 @@ a{
 }
 
 .list-text{
-    font-size: 18px;
-    line-height: 18px;
-    font-weight: 100;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
 }
 
 .sidebar-profile-img{
