@@ -391,3 +391,12 @@ a{
     font-weight: 400;
     color: rgb(115, 115, 115);;
 }
+
+
+
+/* explore page */
+.explore-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+    gap: 8px;
+}
