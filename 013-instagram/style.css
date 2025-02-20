@@ -457,3 +457,47 @@ a{
     padding-bottom: 35px;
     gap: 20px;
 }
+
+.add-new{
+    margin-left: 150px;
+    padding-top: 55px;
+}
+
+.add-new i{
+    border-radius: 50%;
+    border: 1px solid #2A2A2A;
+    padding: 25px;
+    font-size: 40px;
+    font-weight: 400;
+    background-color: #121212;
+    color: #737373;
+    cursor: pointer;
+}
+
+.add-new p{
+    padding-left: 25px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.profile-footer{
+    display: flex;
+    margin-top: 55px;
+    justify-content: center;
+    border-top: 1px solid #262626;
+}
+
+.row{
+    padding-right: 70px;
+    padding-top: 10px;
+    color: #bdb7b7;
+}
+
+.row i{
+    padding-right: 5px;
+    font-size: 12px;
+}
+
+.row span{
+    font-size: 15px;
+}
