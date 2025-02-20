@@ -400,3 +400,60 @@ a{
     grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
     gap: 8px;
 }
+
+
+/* profile html */
+
+.profile-main{
+    padding-top: 60px;
+}
+
+.profile-first-part{
+    display: flex;
+    margin-left: 150px;
+}
+
+.profile-main-float{
+    justify-content: center;
+    padding-left: 95px;
+    align-items: center;
+}
+
+.part-1-img img{
+    border-radius: 50%;
+}
+
+.first-layer{
+    display: flex;
+    padding-bottom: 35px;
+    gap: 15px;
+}
+
+.first-layer button{
+    background-color: #363636;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right:10px ;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.first-layer h2{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.first-layer i{
+    padding-top: 5px;
+}
+
+.second-layer{
+    display: flex;
+    padding-bottom: 35px;
+    gap: 20px;
+}
