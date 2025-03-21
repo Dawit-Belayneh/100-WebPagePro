@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.left-navbar{
+    padding-left: 20px;
+}
+
+.logo{
+    /* font-size: 35px; */
+}
+
+.home{
+    /* font-size: 25px; */
+    border: 2px solid black;
+    border-radius: 50%;
+    /* padding: 5px; */
+    margin-left: 5px;
+}
