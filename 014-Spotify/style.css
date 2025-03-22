@@ -53,9 +53,36 @@ nav{
     display: flex;
     align-items: center;
     width: 450px;
-    border: 1px solid white;
     margin-left: 10px;
-    padding: 12px;
+    padding: 10px;
     border-radius: 50px;
     background-color: #242323;
+}
+
+.magnify{
+    color: #9B9B9B;
+    font-size: 25px;
+    padding-right: 5px;
+}
+
+.serach-container input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.btn-search{
+ border: none;
+ background-color: transparent;
+ color: #9B9B9B;
+ font-size: 20px;
+ border-left: 1px solid white;
+ padding: 5px;
+}
+
+.btn-search i{
+    padding-left: 10px;
 }
