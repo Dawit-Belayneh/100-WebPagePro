@@ -24,11 +24,15 @@ nav{
 }
 
 .logo{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .logo a{
     color: white;
+}
+
+.logo a i{
+    padding-top: 8px;
 }
 
 .navbar-left{
@@ -39,6 +43,7 @@ nav{
     display: flex;
     align-items: center;
     padding-left: 25px;
+    cursor: pointer;
 }
 
 .home{
@@ -47,22 +52,24 @@ nav{
     background-color: #242323;
     border-radius: 50%;
     padding: 10px;
+    cursor: pointer;
 }
 
 .serach-container{
     display: flex;
     align-items: center;
     width: 450px;
-    margin-left: 10px;
-    padding: 10px;
+    margin-left: 15px;
+    padding: 3px;
     border-radius: 50px;
     background-color: #242323;
 }
 
 .magnify{
-    color: #9B9B9B;
-    font-size: 25px;
+    color: #E4E4E4;
+    font-size: 20px;
     padding-right: 5px;
+    padding-left: 10px;
 }
 
 .serach-container input{
@@ -70,17 +77,20 @@ nav{
     border: none;
     outline: none;
     padding: 8px;
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: 500;
     background-color: transparent;
+    color: #E4E4E4;
 }
 
 .btn-search{
  border: none;
  background-color: transparent;
- color: #9B9B9B;
+ color: #E4E4E4;
  font-size: 20px;
  border-left: 1px solid white;
  padding: 5px;
+ cursor: pointer;
 }
 
 .btn-search i{
@@ -97,20 +107,42 @@ nav{
     border: none;
     padding: 10px;
     border-radius: 50px;
-    width: 130px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
 }
 
 .install-btn{
     border: none;
     padding: 10px;
     border-radius: 50px;
-    margin-left: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    width: 120px;
+    color: #E4E4E4;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.arrow-down{
+    border: 2px solid #9B9B9B;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 10px;
+    margin-right: 5px;
+    cursor: pointer;
 }
 
 .notfication{
     margin-left: 30px;
     align-items: center;
-    padding-top: 10px;   
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 18px;   
 }
 
 
