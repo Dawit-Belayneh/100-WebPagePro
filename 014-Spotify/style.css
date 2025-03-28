@@ -86,3 +86,43 @@ nav{
 .btn-search i{
     padding-left: 10px;
 }
+
+.navbar-right{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+}
+
+.Premium-btn{
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 130px;
+}
+
+.install-btn{
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.notfication{
+    margin-left: 30px;
+    align-items: center;
+    padding-top: 10px;   
+}
+
+
+.notfication a i{
+    background-color: transparent;
+    color: #9B9B9B;
+}
+
+.profile-circle{
+    margin-left: 30px;
+}
+
+.profile-circle img{
+    border-radius: 50%;
+}
