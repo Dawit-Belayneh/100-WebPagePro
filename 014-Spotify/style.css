@@ -20,7 +20,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 10px;
+    padding-top:15px;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 
 .logo{
@@ -163,13 +165,20 @@ nav{
 
 .container{
     display: flex;
-    min-height: 1000vh;
+    min-height: 100vh;
 }
 
 .sidebar{
     flex: 0 0 24%;
-    padding-left: 1.5em;
+    margin-left: 10px;
     border-right: 2px solid white;
+    background-color: #242323;
+    border-radius: 5px;
+}
+
+.sub-sidebar{
+    padding-left: 10px;
+    padding-top: 20px;
 }
 
 .top-sidebar{
