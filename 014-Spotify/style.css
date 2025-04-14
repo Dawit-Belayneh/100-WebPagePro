@@ -224,3 +224,33 @@ nav{
     color: white;
     padding-right: 15px;
 }
+
+/* .library-song-list{
+
+} */
+
+.list-one{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.list-text{
+    padding-left: 10px;
+    padding-top: 8px;
+}
+.list-text h4{
+    color: white;
+}
+
+.list-text p{
+    color: white;
+}
+
+.square img{
+    border-radius: 5%;
+}
+
+.circle img{
+    border-radius: 50%;
+}
+
