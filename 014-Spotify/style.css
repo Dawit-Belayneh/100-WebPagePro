@@ -158,3 +158,69 @@ nav{
 .profile-circle img{
     border-radius: 50%;
 }
+
+/* main area */
+
+.container{
+    display: flex;
+    min-height: 1000vh;
+}
+
+.sidebar{
+    flex: 0 0 24%;
+    padding-left: 1.5em;
+    border-right: 2px solid white;
+}
+
+.top-sidebar{
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.top-left-sidebar h2{
+    color: white;
+    font-size: 18px;
+}
+
+.top-right-sidebar-icons{
+    display: flex;
+}
+
+.top-right-sidebar-icons i{
+    color: white;
+    padding-right: 15px;
+}
+
+.sub-sidebar-btn button{
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.main-sidbar{
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-between; 
+}
+
+.sidebar-serach i{
+    padding-top: 10px;
+}
+
+.recents{
+    display: flex;
+   
+}
+
+.recents p{
+    color: white;
+    padding-right: 15px;
+}
+
+.recents i{
+    color: white;
+    padding-right: 15px;
+}
