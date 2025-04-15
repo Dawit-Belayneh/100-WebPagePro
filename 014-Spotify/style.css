@@ -263,3 +263,41 @@ nav{
     border-radius: 50%;
 }
 
+
+.main{
+    flex: 0 0 59%;
+    background-color: #242323;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.main-top button{
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+
+.main-list{
+    flex-wrap: wrap; 
+    justify-content: space-around; /* Space around items */
+    gap:20px;
+}
+
+.main-first-list{
+    display: flex;
+}
+
+.box-1{
+    
+    color: white;
+}
+
+.box-2{
+    display: flex;
+}
