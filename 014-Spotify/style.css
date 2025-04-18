@@ -16,6 +16,14 @@ li{
     list-style: none;
 }
 
+h4{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -267,6 +275,7 @@ nav{
 
 .main{
     flex: 0 0 59%;
+    flex-grow: 1;
     background-color: #242323;
     margin-left: 10px;
     border-radius: 5px;
@@ -311,4 +320,22 @@ nav{
 .box-top{
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+.artist{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    overflow-x: auto;
+    max-width: 800px;
+    white-space: nowrap;
+    scrollbar-width: none;  /* this hide scrool bar*/
+}
+
+.artist-box img{
+    border-radius: 10px;
+}
+
+.sidebar-left{
+    flex: 0 0 18%;
 }
