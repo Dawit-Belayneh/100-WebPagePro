@@ -6,6 +6,7 @@
 
 body{
     background-color: black;
+    max-height: 1000px;
 }
 
 a{
@@ -345,5 +346,5 @@ nav{
 /* player */
 
 .player{
-    
+    background-color: black;
 }
