@@ -30,8 +30,13 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding-top:15px;
-    padding-left: 20px;
-    padding-bottom: 10px;
+    padding-left: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1000;
+    background-color: #000;
 }
 
 .logo{
@@ -175,13 +180,14 @@ nav{
 .container{
     display: flex;
     min-height: 100vh;
+    margin-top: 70px;
+    height: 1500px;
 }
 
 .sidebar{
     flex: 0 0 20.5%;
     margin-left: 10px;
-    border-right: 2px solid white;
-    background-color: #242323;
+    background-color: #121212;
     border-radius: 5px;
 }
 
@@ -216,6 +222,8 @@ nav{
     padding: 5px;
     border-radius: 20px;
     font-size: 15px;
+    background-color: #333333;
+    color: white;
 }
 
 .main-sidbar{
