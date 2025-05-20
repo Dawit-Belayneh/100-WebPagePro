@@ -7,6 +7,7 @@
 body{
     background-color: black;
     max-height: 1000px;
+    font-family:  CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic", "sanserfi";
 }
 
 a{
@@ -30,6 +31,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding-top:15px;
+    padding-bottom: 10px;
     padding-left: 15px;
     top: 0;
     left: 0;
@@ -198,13 +200,15 @@ nav{
 
 .top-sidebar{
     display: flex;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     justify-content: space-between;
 }
 
 .top-left-sidebar h2{
-    color: white;
-    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .top-right-sidebar-icons{
@@ -212,42 +216,47 @@ nav{
 }
 
 .top-right-sidebar-icons i{
-    color: white;
+    color: #C3C3C3;
     padding-right: 15px;
+    cursor: pointer;
 }
 
 .sub-sidebar-btn button{
     border: none;
     outline: none;
-    padding: 5px;
+    padding: 8px;
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 13px;
     background-color: #333333;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
 }
 
 .main-sidbar{
     display: flex;
     padding-bottom: 10px;
     justify-content: space-between; 
+    padding-top: 15px;
 }
 
 .sidebar-serach i{
-    padding-top: 10px;
+    color: #C3C3C3;
+    font-size: 16px;
 }
 
 .recents{
     display: flex;
-   
 }
 
 .recents p{
-    color: white;
+    color: #C3C3C3;
     padding-right: 15px;
+    font-weight: 700;
+    font-size: 14px;
 }
 
 .recents i{
-    color: white;
+    color: #C3C3C3;
     padding-right: 15px;
 }
 
