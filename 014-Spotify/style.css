@@ -266,19 +266,31 @@ nav{
 
 .list-one{
     display: flex;
-    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
+.list-one:hover{
+    background-color: #1F1F1F;
+}
 .list-text{
     padding-left: 10px;
     padding-top: 8px;
 }
 .list-text h4{
-    color: white;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 15px;
+    padding-bottom: 5px;
 }
 
 .list-text p{
-    color: white;
+    color: #C3C3C3;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .square img{
