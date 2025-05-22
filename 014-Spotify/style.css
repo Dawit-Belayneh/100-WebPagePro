@@ -376,6 +376,17 @@ nav{
     padding-top: 20px;
 }
 
+.like-songs h2{
+    font-size: 30px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.like-songs h2:hover{
+    text-decoration: underline;
+}
+
+
 .artist{
     display: flex;
     justify-content: space-between;
@@ -384,10 +395,28 @@ nav{
     max-width: 800px;
     white-space: nowrap;
     scrollbar-width: none;  /* this hide scrool bar*/
+    cursor: pointer;
 }
 
 .artist-box img{
     border-radius: 10px;
+}
+
+.artist-box h4{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.artist-box:hover{
+    background-color: #333333;
+}
+
+.artist-box p{
+    color: #C3C3C3;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .sidebar-left{
