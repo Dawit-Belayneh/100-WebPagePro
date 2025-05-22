@@ -191,6 +191,7 @@ nav{
     margin-left: 10px;
     background-color: #121212;
     border-radius: 5px;
+    overflow-y: scroll;
 }
 
 .sub-sidebar{
@@ -309,6 +310,11 @@ nav{
     background-color: #242323;
     margin-left: 10px;
     border-radius: 5px;
+    overflow-y: scroll;
+}
+
+.main-container{
+    padding-left: 30px;
 }
 
 .main-top button{
@@ -322,6 +328,14 @@ nav{
     font-size: 15px;
 }
 
+.all-btn{
+    background-color: white;
+}
+
+.music-btn{
+    background-color: #333333;
+    color: rgb(255, 255, 255);
+}
 
 .main-list{
     flex-wrap: wrap; 
@@ -333,14 +347,20 @@ nav{
     display: flex;
 }
 
-.box-1{
-    color: white;
-}
-
 .sub-box{
     display: flex;
-    border: 1px solid white;
-    width: 300px;
+    background-color: rgb(65, 65, 65);
+    width: 350px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.sub-box h3{
+    padding-top: 7px;
+    padding-left: 7px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400px;
 }
 
 .box-2{
@@ -350,6 +370,10 @@ nav{
 .box-top{
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+.like-songs{
+    padding-top: 20px;
 }
 
 .artist{
