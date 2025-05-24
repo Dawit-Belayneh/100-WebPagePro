@@ -8,6 +8,7 @@ body{
     background-color: black;
     max-height: 1000px;
     font-family:  CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic", "sanserfi";
+    max-height: 1000vh;
 }
 
 a{
@@ -307,7 +308,7 @@ nav{
 .main{
     flex: 0 0 59%;
     flex-grow: 1;
-    background-color: #242323;
+    background-color: #121212;
     margin-left: 10px;
     border-radius: 5px;
     overflow-y: scroll;
@@ -330,11 +331,13 @@ nav{
 
 .all-btn{
     background-color: white;
+    cursor: pointer;
 }
 
 .music-btn{
     background-color: #333333;
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 .main-list{
@@ -353,6 +356,7 @@ nav{
     width: 350px;
     padding: 5px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .sub-box h3{
@@ -419,6 +423,33 @@ nav{
     font-weight: 500;
 }
 
+.albums-picture{
+    padding-top: 40px;
+    padding-left: 100px;
+     position: relative;
+}
+
+.on-img{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.on-img-text{
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.on-img-text h2{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.on-img-text p{
+    color: #9B9B9B
+}
 .sidebar-left{
     flex: 0 0 18%;
 }
