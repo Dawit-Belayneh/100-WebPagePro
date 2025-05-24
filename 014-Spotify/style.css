@@ -450,9 +450,74 @@ nav{
 .on-img-text p{
     color: #9B9B9B
 }
-.sidebar-left{
-    flex: 0 0 18%;
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #9B9B9B;
 }
+
+.footer-list h3{
+  color: rgb(255, 255, 255);
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.footer-list p{
+    color: #9B9B9B;
+    font-weight: 500;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.footer-list p:hover{
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.footer-list-icons{
+    padding-right: 50px;
+}
+
+.footer-list-icons a{
+    color: #9B9B9B;
+    padding-left: 20px;
+    font-size:20px;
+}
+
+.last-footer-list{
+    padding-top: 20px;
+    display: flex;
+}
+
+.last-footer-list a p{
+    color: #9B9B9B;
+    padding-right: 10px;
+}
+
+/* sidebar right */
+
+.sidebar-right{
+    flex: 0 0 20%;
+    background-color: #121212;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+.sidebar-right h3{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.sidebar-right img{
+    border-radius: 5px;
+}
+
+
 
 
 
